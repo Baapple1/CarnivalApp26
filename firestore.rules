@@ -1,0 +1,34 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper functions
+    function hasNotVotedBefore(userId) {
+      return !exists(/databases/$(database)/documents/device_votes/$(userId));
+    }
+
+    // Allow reading for all collections
+    match /{document=**} {
+      allow read: if true;
+    }
+    
+    // Rules for votes collection
+    match /votes/{voteId} {
+      allow create: if hasNotVotedBefore(request.resource.data.deviceId);
+      allow update, delete: if false; // Prevent vote modification/deletion
+    }
+    
+    // Rules for device_votes collection
+    match /device_votes/{deviceId} {
+      allow create: if hasNotVotedBefore(deviceId);
+      allow update, delete: if false; // Prevent modification/deletion
+    }
+    
+    // Rules for ClubVotes collection
+    match /ClubVotes/{clubId} {
+      allow read: if true;
+      allow create, update: if true;
+      allow delete: if false; // Prevent deletion
+    }
+  }
+} 

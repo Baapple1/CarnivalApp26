@@ -1,0 +1,55 @@
+# Secrets and sensitive information
+secrets.properties
+*.properties
+!gradle.properties
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Build files
+build/
+.gradle/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Local configuration files
+local.properties
+
+# API keys and secrets
+api_keys.properties
+.env
+*.env
+
+# Logs
+*.log
+logs/
+log/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Other
+*.bak
+*.tmp
+*.temp
+*.aab
+composeApp/release/composeApp-release.aab

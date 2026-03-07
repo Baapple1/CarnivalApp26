@@ -1,0 +1,514 @@
+package org.bridgwatercarnival.companion.util.translations
+
+/**
+ * Contains all English translations for the app.
+ * This is the default language and serves as a fallback when translations are missing.
+ */
+object EnglishTranslations {
+    /**
+     * Map of translation keys to their English text values.
+     * Keys are organized by sections (General, Navigation, Welcome Dialog, etc.)
+     * for better maintainability.
+     */
+    val translations = mapOf(
+        // General app settings and common UI elements
+        "app_name" to "Bridgwater Carnival Companion",
+        "settings" to "Settings",
+        "language" to "Language",
+        "theme" to "Theme",
+        "dark_mode" to "Dark Mode",
+        "light_mode" to "Light Mode",
+        "select_language" to "Select Language",
+        "close" to "Close",
+        
+        // Bottom navigation and main app sections
+        "home" to "Home",
+        "schedule" to "Schedule",
+        "map" to "Map",
+        "profile" to "Profile",
+        "explore" to "Explore",
+        "store" to "Store",
+        
+        // Welcome dialog shown on first app launch
+        "welcome_message" to "🎊 Welcome to the Bridgwater Carnival App! 🎭📱",
+        "welcome_description" to "🎆 Experience the magic of the Bridgwater Carnival! 🎆 Join the celebrations of Guy Fawkes' failed plot in Bridgwater on the first Saturday of November every year 🧨 Plan your visit 📔 explore the map 🗺️ and dive into all the details you need for an unforgettable experienceℹ️",
+        "start_exploring" to "🎡 Start Exploring! 🎪",
+        
+        // Home screen content
+        "next_event" to "Next Event",
+        "no_upcoming_events" to "No upcoming events",
+        
+        // Schedule screen content
+        "event_schedule" to "Event Schedule",
+        "date" to "Date",
+        "time" to "Time",
+        "location" to "Location",
+        "description" to "Description",
+        
+        // Map screen content
+        "carnival_map" to "Carnival Map",
+        "your_location" to "Your Location",
+        "event_location" to "Event Location",
+        
+        // Profile screen content
+        "user_profile" to "User Profile",
+        "edit_profile" to "Edit Profile",
+        "save" to "Save",
+        "cancel" to "Cancel",
+        
+        // Settings screen content
+        "notifications" to "Notifications",
+        "push_notifications" to "Push Notifications",
+        "email_notifications" to "Email Notifications",
+        "privacy_policy" to "Privacy Policy",
+        "terms_of_service" to "Terms of Service",
+        "about" to "About",
+        "version" to "Version",
+        "eng_abbr" to "Eng",
+        "fra_abbr" to "Fra",
+        "esp_abbr" to "Spa",
+        "deu_abbr" to "Deu",
+        "ita_abbr" to "Ita",
+        
+        // Language names
+        "english" to "English",
+        "french" to "French",
+        "spanish" to "Spanish",
+        "german" to "German",
+        "italian" to "Italian",
+        
+        // Error messages and loading states
+        "error" to "Error",
+        "network_error" to "Network Error",
+        "try_again" to "Try Again",
+        "loading" to "Loading...",
+        "no_internet_connection" to "No Internet Connection",
+        "internet_connection_required" to "Internet Connection Required",
+        "check_internet_connection" to "Please check your internet connection and try again.",
+        
+        // Success messages
+        "success" to "Success",
+        "saved" to "Saved",
+        "updated" to "Updated",
+        
+        // First Time Visitor Guide content
+        "first_time_visitor_guide" to "First Time Visitor Guide",
+        "welcome_carnival" to "Welcome to Bridgwater Carnival! 🎉",
+        "quick_guide_intro" to "Here's a quick guide to help you make the most of your visit.",
+        "event_overview_title" to "Event Overview",
+        "event_overview_text" to "Bridgwater Carnival is a large event in a small town, attracting tens of thousands of visitors. It will be VERY busy! The carnival goes ahead in all weather conditions.",
+        "tickets_seating_title" to "Tickets and Seating",
+        "tickets_seating_text" to "• No tickets are needed unless you want grandstand seating or a hospitality package, which sell out early.\n• Plenty of space is available along the 1.7-mile route.",
+        "arriving_parking_title" to "Arriving and Parking",
+        "arriving_parking_text" to "• Arrive early for parking and to secure a spot.\n• Road closures start around 4 pm.\n• Use official parking and park-and-rides. No overnight parking is allowed.",
+        "what_to_expect_title" to " What to Expect",
+        "what_to_expect_text" to "• Prepare for queues and cold, wet weather—it's November!\n• Be ready to stand for long periods unless you have a seat.\n• The procession lasts about two hours with large, illuminated carts and marching bands.\n• Gaps may occur in the procession; we do our best to minimize them.\n• Mobile signal may be weak due to the crowd.\n• A firework display, called 'squibbing,' happens after the procession on High Street.",
+        "additional_tips_title" to " Additional Tips",
+        "additional_tips_text" to "• Avoid unofficial traders selling light-up toys and balloons.\n• Don't bring pets unless they are assistance animals.\n• Respect our volunteers—they're here for your safety.\n• Please donate generously to our charity collections!",
+        "more_info_title" to "More Information",
+        "more_info_text" to "• Website: www.bridgwatercarnival.org.uk\n• Facebook: @bridgwaterguyfawkescarnival\n• Twitter: @BCarnival\n• Instagram: @bridgwatercarnival\n• Carnival Centre: 01278 428220 (weekdays 9am-1pm)",
+        
+        // Help page translations
+        "essential_info" to "Essential Information ℹ️",
+        "first_time_guide" to "First Time Guide",
+        "arrival_times" to "Arrival Times",
+        "squibbing_guide" to "Squibbing Guide",
+        "planner" to "Event Planner",
+        "travel_access" to "Travel & Access 🚘",
+        "parking" to "Parking",
+        "road_closures" to "Road Closures",
+        "entertainment" to "Entertainment 🎭",
+        "daytime_events" to "Daytime Events",
+        "gallery" to "Gallery",
+        "voting" to "Voting 🗳️",
+        "vote_now" to "Vote Now",
+        "view_results" to "View Results",
+        "additional_info" to "Additional Information 📢",
+        "social_media" to "Social Media",
+        "app_info" to "App Info",
+        "carnival_started" to "🎉 Carnival Has Started! 🎉",
+        "parade_starts_in" to "Parade Starts in:",
+        "days" to "Days",
+        "hours" to "Hrs",
+        "minutes" to "Min",
+        "seconds" to "Sec",
+        
+        // Estimated Time page translations
+        "estimated_arrival_time" to "Estimated Time of Arrival",
+        "route_map" to "Route Map",
+        "zoomable_map" to "Zoomable Route Map",
+        "delay_warning" to "NOTE: There can be delays due to uncontrollable issues such as breakdowns, accidents, or other emergencies.",
+        "start" to "Start",
+        "bath_road_bridge" to "Bath Road Bridge",
+        "cross_rifles" to "Cross Rifles",
+        "eastover" to "Eastover",
+        "salmon_parade" to "Salmon Parade",
+        "carnival_inn" to "Carnival Inn",
+        "cornhill" to "Cornhill",
+        "penel_orlieu" to "Penel Orlieu",
+        "finish" to "Finish",
+        
+        // Squibbing page translations
+        "squibbing_title" to "Squibbing",
+        "squibbing_image_description" to "Squibbing Event Image",
+        "squibbing_location" to "LOCATION: High Street, Bridgwater, Somerset",
+        "squibbing_children_warning" to "IMPORTANT NOTICE: Children are advised to stand far back from where the squibbing takes place.",
+        "squibbing_safety_warning" to "NOTE: Squibbing can cause serious burn if stood too close. Please watch at your own risk.",
+        "what_is_squibbing" to "What is Squibbing?",
+        "squibbing_description" to "Squibbing is a unique Bridgwater tradition involving the simultaneous firing of many large fireworks, known as squibs. This spectacular event attracts visitors from around the world.\n\nAround 150 participants, or 'Squibbers', line the High Street in pairs and light their squibs at the same time, creating a continuous trail of bright fireworks along the road.\n\nEach squib is a large firework attached to a pole, which the Squibber holds above their head. The display starts 30 minutes after the last procession entry crosses the finish line.",
+        
+        // Parking page translations
+        "parking_information" to "Parking Information",
+        "expanded_parking_map" to "Expanded Parking Map",
+        "parking_map" to "Parking Map",
+        "mount_street_carpark" to "Mount Street Car Park",
+        "mount_street_time" to "Open from 2pm",
+        "mount_street_price" to "£5 per vehicle",
+        "mount_street_location" to "Close to town center",
+        "mount_street_accessibility" to "Accessible parking available",
+        "northgate_carpark" to "Northgate Car Park",
+        "northgate_time" to "Open from 3pm",
+        "northgate_price" to "£6 per vehicle",
+        "northgate_location" to "5 minute walk to High Street",
+        "northgate_security" to "Well-lit and secure",
+        "park_and_ride" to "Park & Ride Service",
+        "park_ride_time" to "Operating from 4pm to midnight",
+        "park_ride_price" to "£8 per vehicle (includes all passengers)",
+        "park_ride_frequency" to "Regular shuttle service every 15 minutes",
+        "park_ride_location" to "Located at Junction 24",
+        "important_notice" to "Important Notice",
+        "parking_notice" to "Please arrive early as parking fills up quickly. Follow stewards' instructions for smooth parking operations.",
+
+        // Road Closure page translations
+        "road_closure" to "Road Closure",
+        "expanded_closure_map" to "Expanded Road Closure Map",
+        "road_closure_map" to "Road Closure Map",
+        "sort_by_point" to "Sort by Closure Point Number",
+        "sort_by_time" to "Sort by Time",
+        "road_closure_schedule" to "Road Closure Schedule",
+        "closure_point_1" to "A39 (Bath Road)/Kingsdown 1600 hours",
+        "closure_point_2" to "Parkway (Northbound)/Sydenham Road 1600 hours",
+        "closure_point_3" to "A38 (Bristol Road)/The Drove 1600 hours",
+        "closure_point_4" to "Wylds Road 1600 hours",
+        "closure_point_5" to "Wylds Road 1600 hours",
+        "closure_point_6" to "Northgate/The Clink 1600 hours",
+        "closure_point_7" to "A39 (Broadway)/Penel Orlieu 1600 hours",
+        "closure_point_8" to "A39 (Broadway)/Morrisons 1600 hours",
+        "closure_point_9" to "A372 (St John Street)/Barclay Street 1600 hours",
+        "closure_point_10" to "Broadway (Salmon Parade to Eastover) 1300 hours",
+        "closure_point_11" to "Cornhill/High Street 0800 hours",
+        "closure_point_12" to "Parkway procession assembly area From 0900 hours",
+        
+        // Gallery 2024 translations
+        "gallery_2024_title" to "✨ Bridgwater Carnival 2024 ✨",
+        "gallery_2024_description" to "2024 Carnival Gallery. Showing photos from all carnival clubs. Swipe up or down to browse.",
+        "double_tap_view_photo" to "Double tap to view full size photo.",
+        "view_full_size_photo" to "View full size photo",
+        "fullscreen_photo_instructions" to "Full screen photo view. You can zoom in by pinching with two fingers, and move around by dragging with three fingers. There's a close button at the top right - double tap it to go back to the gallery.",
+        "close_fullscreen" to "Close full screen view",
+        
+        // Carnival Clubs 2024
+        "gremlins_title" to "Gremlins Carnival Club",
+        "gremlins_description" to "The champions of 2024! Experience BEATLEMANIA with the Gremlins' winning carnival entry.",
+        "ramblers_title" to "Ramblers Carnival Club",
+        "ramblers_description" to "Join the fun with Ramblers' exciting Pinball entry at the 2024 carnival.",
+        "renegades_title" to "Renegades Carnival Club",
+        "renegades_description" to "Step into The Manor with Renegades' magnificent 2024 carnival entry.",
+        "marketeers_title" to "Marketeers Carnival Club",
+        "marketeers_description" to "Soar with Spirit of the Eagle, the Marketeers' inspiring new beginnings for 2024.",
+        "lime_kiln_title" to "Lime Kiln Carnival Club",
+        "lime_kiln_description" to "Celebrate at Oktoberfest with Lime Kiln's festive 2024 carnival entry.",
+        "vagabonds_title" to "Vagabonds Carnival Club",
+        "vagabonds_description" to "Discover The Green Dragon - A Brewery Tale with the Vagabonds' creative 2024 entry.",
+        "griffens_title" to "Griffens Carnival Club",
+        "griffens_description" to "Take flight with The Great Air Race in Griffens' thrilling 2024 carnival entry.",
+        "crusaders_title" to "Crusaders Carnival Club",
+        "crusaders_description" to "Venture into space with the Crusaders' exciting Space Pirates entry for 2024.",
+        "new_market_title" to "New Market Carnival Club",
+        "new_market_description" to "Pedal through the Tour de Somerset with New Market's sporty 2024 entry.",
+        "marina_sydenham_title" to "Marina Sydenham Carnival Club",
+        "marina_sydenham_description" to "Join the celebration of Carnivale de Mardi Gras with Marina Sydenham's 2024 entry.",
+        "pentathlon_title" to "Pentathlon Carnival Club",
+        "pentathlon_description" to "Ride with the Outlaws in Pentathlon's adventurous 2024 carnival entry.",
+        "hillview_title" to "Hillview Carnival Club",
+        "hillview_description" to "Meet the Country Kidz in Hillview's charming 2024 carnival entry.",
+        "harliquin_title" to "Harliquin Carnival Club",
+        "harliquin_description" to "Play along with Pinball in Harlequin's entertaining 2024 carnival entry.",
+        "masqueraders_title" to "Masqueraders",
+        "masqueraders_title" to "🌟 Masqueraders",
+        "masqueraders_description" to "Step right up to see the Masqueraders' spectacular 2024 carnival performance.",
+        
+        // Gallery 2025 translations
+        "gallery_2025_title" to "✨ Bridgwater Carnival 2025 ✨",
+        "coming_2025" to "🎪 Coming in 2025! 🎭",
+        "gallery_2025_description" to "Get ready for an incredible celebration of creativity and community! Photos from the 2025 carnival will be shown here after the event.",
+
+        // Gallery page translations
+        "gallery_title" to "✨ Carnival Gallery ✨",
+        "gallery_year_title" to "Bridgwater Carnival {year}",
+        "gallery_2023_preview_description" to "View photos from the 2023 Bridgwater carnival!",
+        "gallery_2024_preview_description" to "View photos from the 2024 Bridgwater carnival!",
+        "gallery_2025_preview_description" to "Click to see a special preview",
+
+        // Gallery 2023 translations
+        "gallery_2023_title" to "✨ Bridgwater Carnival 2023 ✨",
+        "ramblers_2023_title" to "Ramblers Carnival Club",
+        "ramblers_2023_description" to "The winners of the 2023 carnival, presenting their spectacular entry called Trawlermen.",
+        "gremlins_2023_title" to "Gremlins Carnival Club",
+        "gremlins_2023_description" to "Experience The Travelling Show, Gremlins Carnival Club's amazing entry for 2023.",
+        "marketeers_2023_title" to "Marketeers Carnival Club",
+        "marketeers_2023_description" to "See the Marketeers' wonderful performance of Dames at the 2023 carnival.",
+        "british_flag_2023_title" to "British Flag Carnival Club",
+        "british_flag_2023_description" to "Discover British Flag's enchanting entry It's Grimm from the 2023 carnival.",
+        "cavaliers_2023_title" to "Cavaliers Carnival Club",
+        "cavaliers_2023_description" to "Journey through Dusty Roads with the Cavaliers' 2023 carnival entry.",
+        "centurions_2023_title" to "Centurions Carnival Club",
+        "centurions_2023_description" to "Step into Steampunk Revolution with the Centurions' amazing 2023 entry.",
+        "crusaders_2023_title" to "Crusaders Carnival Club",
+        "crusaders_2023_description" to "Experience the magic of Wunderland with the Crusaders' 2023 carnival entry.",
+        "griffens_2023_title" to "Griffens Carnival Club",
+        "griffens_2023_description" to "Visit This Old House with the Griffens' fascinating 2023 carnival entry.",
+        "lime_kiln_2023_title" to "Lime Kiln Carnival Club",
+        "lime_kiln_2023_description" to "Join the excitement of Race Night with Lime Kiln's 2023 carnival entry.",
+        "newmarket_2023_title" to "Newmarket Carnival Club",
+        "newmarket_2023_description" to "Discover the story of Dirty Laundry in Newmarket's 2023 carnival entry.",
+        "marina_sydenham_2023_title" to "Marina Sydenham Carnival Club",
+        "marina_sydenham_2023_description" to "Step into Gustafson's Workshop with Marina Sydenham's 2023 entry.",
+        "pentathlon_2023_title" to "Pentathlon Carnival Club",
+        "pentathlon_2023_description" to "Experience the power of Zulu with Pentathlon's 2023 carnival entry.",
+        "renegades_2023_title" to "Renegades Carnival Club",
+        "renegades_2023_description" to "Dance through Carnaval Del Barrio with the Renegades' 2023 entry.",
+        "vagabonds_2023_title" to "Vagabonds Carnival Club",
+        "vagabonds_2023_description" to "Journey to Luxor with the Vagabonds' spectacular 2023 carnival entry.",
+        "guy_fawkes_2023_title" to "Bridgwater Guy Fawkes Cart",
+        "guy_fawkes_2023_description" to "Leading the procession, see the traditional Guy Fawkes Cart that opens our carnival.",
+
+        // Voting Screen translations
+        "voting_almost_showtime" to "🎪 Almost Showtime! 🎭",
+        "voting_carnival_spirit" to "🌟 The carnival spirit is building! 🌟",
+        "voting_time_until" to "Time until voting opens: {time}",
+        "voting_ready_message" to "✨ Get ready to cast your vote between 10 PM and midnight on November 1st, 2025! Your vote will help crown this year's champions! ✨",
+        "voting_ill_be_back" to "I'll Be Back! 🎉",
+        "voting_recording" to "Recording your vote...",
+        "voting_favorite" to "🎭 Vote for Your Favorite! 🎪",
+        "voting_be_part" to "🌟 Be Part of Carnival History! 🌟",
+        "voting_helps_tradition" to "Your vote helps celebrate and preserve our cherished carnival tradition",
+        "voting_tap_to_cast" to "Tap to cast your vote! 🗳️",
+        "voting_vote_for" to "Vote for {name}",
+        "voting_confirm_title" to "🎭 Confirm Your Vote 🎪",
+        "voting_confirm_text" to "Are you sure you want to vote for:",
+        "voting_remember_once" to "Remember: You can only vote once!",
+        "voting_yes_cast" to "Yes, Cast My Vote! 🗳️",
+        "voting_let_think" to "Let Me Think... 🤔",
+        "voting_thank_you" to "🎉 Thank You! 🎊",
+        "voting_success_recorded" to "Your vote has been successfully recorded for:",
+        "voting_check_results" to "Come back after midnight to see the results!",
+        "voting_cant_wait" to "Can't Wait! 🎭",
+        "voting_already_title" to "Already Voted! 🎭",
+        "voting_already_message" to "You have already submitted your vote for this year's carnival.",
+        "voting_ok" to "OK! 🎪",
+        
+        // Top Clubs Dialog
+        "top_clubs_title" to "Top 3 Clubs",
+        "top_clubs_votes" to "{club}: {count} votes",
+        "top_clubs_close" to "Close",
+        
+        // Results Screen translations
+        "results_title" to "Carnival Club Results",
+        "results_loading" to "Loading results...",
+        "results_not_available" to "Results are not available yet",
+        "results_check_back" to "Please check back later when the results are announced",
+        "results_votes" to "{count} votes",
+        "results_first_place" to "🥇 First Place",
+        "results_second_place" to "🥈 Second Place",
+        "results_third_place" to "🥉 Third Place",
+        "results_fourth_place" to "Fourth Place",
+        "results_fifth_place" to "Fifth Place",
+        "results_suspense_title" to "🎭 The Suspense Builds! 🎪",
+        "results_counting_votes" to "🌟 The votes are still being counted! 🌟",
+        "results_time_until" to "Time until the big reveal: {time}",
+        "results_join_after" to "✨ Join us after 12 AM 2nd November 2025 to discover who will be crowned this year's champions! ✨",
+        "results_cant_wait" to "Can't Wait! 🎉",
+        "results_ill_check_later" to "I'll Check Later! 🎪",
+
+        // App Info Page
+        "app_info_title" to "Application Information",
+        "app_info_version" to "Version: {version}",
+        "app_info_made_at" to "Made At:",
+        "app_info_feedback" to "If you may have any feedback please email us at {email}.",
+
+        // Social Media Page
+        "social_media_title" to "Social Media",
+        "social_media_instagram" to "Instagram",
+        "social_media_twitter" to "X (Twitter)",
+        "social_media_facebook" to "Facebook",
+        "social_media_youtube" to "Youtube",
+        "social_media_donate" to "Donate",
+        "social_media_privacy_policy" to "Privacy Policy",
+
+        // Results Page - Additional Keys
+        "results_congratulations" to "Congratulations!",
+        "results_error" to "Error: {message}",
+        
+        // Connect With Us translations
+        "connect_with_us" to "Connect With Us",
+        "connect_with_us_text" to "Stay connected with us through our social media and website for the latest carnival updates.",
+        "connect_with_us_website" to "Visit bridgwatercarnival.org.uk",
+        "connect_with_us_facebook" to "Follow us on Facebook",
+        "connect_with_us_instagram" to "Follow us on Instagram",
+        "connect_with_us_twitter" to "Follow us on Twitter",
+        
+        // Social Media Icons and Names
+        "social_media_icon_facebook" to "facebook",
+        "social_media_icon_instagram" to "instagram",
+        "social_media_icon_twitter" to "x",
+        "social_media_icon_website" to "ic_website",
+        "social_media_name_facebook" to "Facebook",
+        "social_media_name_instagram" to "Instagram",
+        "social_media_name_twitter" to "Twitter",
+        "social_media_name_website" to "Website",
+        
+        // Planner translations
+        "planner_title" to "Your Carnival Planner 🎪",
+        "planner_items_title" to "Essential Items",
+        "planner_select_items" to "Select Items",
+        "planner_tap_to_start" to "Tap to start planning your carnival visit!",
+        "planner_clear" to "Clear",
+        "planner_done" to "Done",
+        "planner_clear_all" to "Clear All",
+        "planner_get_directions" to "Get Directions",
+        "planner_car_park_title" to "Select Car Park",
+        "planner_deselect_all" to "Deselect All",
+        "planner_select_all" to "Select All",
+
+        // Planner categories
+        "category_essentials" to "Essentials",
+        "category_comfort_clothing" to "Comfort & Clothing",
+        "category_food_drinks" to "Food & Drinks",
+        "category_extras" to "Extras",
+        "category_family" to "For Families & Kids",
+        "category_capturing" to "For Capturing the Moment",
+
+        // Planner items
+        "item_warm_clothes" to "Warm Clothes",
+        "item_umbrella" to "Umbrella",
+        "item_money" to "Money/Cards",
+        "item_power_bank" to "Power Bank",
+        "item_phone" to "Phone",
+        "item_headphones" to "Headphones",
+        "item_camera" to "Camera",
+        "item_chair" to "Folding Chair",
+        "item_water" to "Water",
+        "item_snacks" to "Snacks",
+        "item_torch" to "Torch/Flashlight",
+        "item_sanitizer" to "Hand Sanitizer",
+        "item_medications" to "Medications",
+        "item_tickets" to "Tickets",
+
+        // Car parks
+        "car_park_mount_street" to "Mount Street Car Park",
+        "car_park_mount_street_address" to "Mount Street, Bridgwater",
+        "car_park_northgate" to "Northgate Car Park",
+        "car_park_northgate_address" to "Northgate, Bridgwater",
+        "car_park_dampiet" to "Dampiet Street Car Park",
+        "car_park_dampiet_address" to "Dampiet Street, Bridgwater",
+        "car_park_angel" to "Angel Place Car Park",
+        "car_park_angel_address" to "Angel Crescent, Bridgwater",
+
+        // Planner Categories
+        "category_essentials" to "Essentials",
+        "category_comfort_clothing" to "Comfort & Clothing",
+        "category_food_drinks" to "Food & Drinks",
+        "category_extras" to "Extras",
+        "category_family" to "For Families & Kids",
+        "category_capturing" to "For Capturing the Moment",
+
+        // Essential Items
+        "item_tickets" to "Tickets",
+        "item_payment" to "Cash & Card",
+        "item_phone" to "Mobile Phone",
+        "item_charger" to "Portable Charger",
+        "item_id" to "ID",
+        "item_keys_wallet" to "Keys & Wallet",
+
+        // Comfort & Clothing Items
+        "item_warm_clothes" to "Warm Clothes & Layers",
+        "item_waterproof" to "Waterproof Jacket / Poncho",
+        "item_comfortable_shoes" to "Comfortable Shoes",
+        "item_winter_accessories" to "Gloves, Hat & Scarf",
+
+        // Food & Drinks Items
+        "item_snacks" to "Snacks",
+        "item_water_bottle" to "Reusable Water Bottle",
+        "item_thermos" to "Thermos",
+
+        // Extra Items
+        "item_folding_chair" to "Folding Chair",
+        "item_blanket" to "Small Blanket",
+        "item_umbrella" to "Umbrella",
+        "item_binoculars" to "Binoculars",
+
+        // Family Items
+        "item_ear_defenders" to "Ear Defenders",
+        "item_glow_sticks" to "Glow Sticks",
+        "item_spare_clothes" to "Spare Clothes",
+        "item_sanitizer" to "Baby Wipes & Hand Sanitizer",
+
+        // Capturing Items
+        "item_camera" to "Camera",
+        "item_camera_extras" to "Extra Batteries / Memory Cards",
+
+        // News
+        "news_title" to "Latest News",
+        "help_news_title" to "News Feed",
+        "help_news_description" to "Stay up to date with the latest updates from Bridgwater Carnival's social media channels, including Facebook, Instagram, and X (Twitter).",
+        "news_error_loading" to "Unable to load social media feed",
+        "news_try_again" to "Try Again",
+        "news_note_open_link" to "Note: If button does not work, when you click it, hold it down and press 'Open Link' and it will take you to the website on a browser.",
+
+        // Voting Ended Dialog
+        "voting_ended_title" to "Voting Has Ended",
+        "voting_ended_message" to "Thank you for your interest in voting! The voting period has now closed.",
+        "voting_check_results_now" to "You can now check the results to see who won!",
+        "voting_view_results" to "View Results",
+
+        // Settings
+        "settings_title" to "Settings",
+        "notifications_title" to "Notifications",
+        "notifications_description" to "Enable notifications to receive daily updates about the carnival countdown.",
+        "daily_countdown_notifications" to "Daily Countdown Notifications",
+        "countdown_notifications" to "Countdown notifications",
+        "enable_notifications" to "Enable notifications",
+        "selected_language" to "Selected Language",
+        "disable_notifications_title" to "Disable Notifications",
+        "disable_notifications_message" to "Are you sure you want to disable notifications? You will no longer receive carnival countdown updates.",
+        "yes_disable" to "Yes, Disable",
+        "keep_enabled" to "Keep Enabled",
+        "voting_locked_icon" to "Locked",
+        "voting_not_available_title" to "Voting Not Available Yet",
+        "voting_available_later" to "Voting will be available during the carnival. Please check back later!",
+        "voting_refresh_page" to "Refresh Page 🔄",
+        "voting_close" to "Close",
+        "voting_notifications" to "Voting Notifications",
+        "results_notifications" to "Results Notifications",
+
+        // FAQ translations
+        "faq_title" to "Frequently Asked Questions",
+        "faq_q1" to "What time does the carnival start?",
+        "faq_a1" to "The carnival procession typically starts at 6:00 PM on November 1st. However, we recommend arriving early to secure a good viewing spot and enjoy the pre-carnival entertainment.",
+        "faq_q2" to "Where can I park?",
+        "faq_a2" to "There are several parking options available, including the Park & Ride service from Junction 24. Please check the Parking section in the app for detailed information about all parking locations and prices.",
+        "faq_q3" to "Is there an entry fee?",
+        "faq_a3" to "The carnival procession is free to watch from public areas. However, there are grandstand tickets available for purchase if you'd like a guaranteed viewing spot.",
+        "faq_q4" to "What should I bring?",
+        "faq_a4" to "We recommend bringing warm clothing, comfortable shoes, and a torch. You might also want to bring a portable chair if you plan to stay in one spot for a while.",
+        "faq_q5" to "Are there facilities for disabled visitors?",
+        "faq_a5" to "Yes, there are accessible viewing areas and facilities. Please check the Accessibility section in the app for detailed information about disabled parking, viewing areas, and other services.",
+        "faq_q6" to "Can I bring my dog?",
+        "faq_a6" to "While dogs are not prohibited, we strongly advise against bringing them due to the large crowds, loud noises, and fireworks which can be stressful for animals.",
+        "faq_q7" to "What happens if it rains?",
+        "faq_a7" to "The carnival procession will go ahead in most weather conditions. Only in cases of extreme weather (such as high winds) would the event be postponed. Please check our social media channels for updates.",
+        "faq_q8" to "How can I vote for my favorite entry?",
+        "faq_a8" to "You can vote for your favorite carnival entry through our app. Voting opens at 10 PM on November 1st and closes at midnight. Check the Voting section for more details."
+    )
+} 
