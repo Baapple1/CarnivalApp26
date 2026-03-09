@@ -194,7 +194,8 @@ fun App(navController: NavHostController = rememberNavController()) {
 		translationManager.forceUpdate() // Force UI update
 	}
 
-	var showWelcomeDialog by remember { mutableStateOf(true) }
+	// Toggle Welcome Dialog
+	var showWelcomeDialog by remember { mutableStateOf(false) }
 	val backStackEntry by navController.currentBackStackEntryAsState()
 
 	val colorsLight = lightColors(
