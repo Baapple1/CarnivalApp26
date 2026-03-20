@@ -36,6 +36,7 @@ fun Gallery(navController: NavHostController) {
 	val neonPink = Color(0xFFFF1493)     // Deep pink
 	val neonBlue = Color(0xFF00BFFF)     // Deep sky blue
 	val neonGreen = Color(0xFF39FF14)    // Electric green
+	val neonYellow = Color(0xFFFFBE0B)   // Amber Gold
 
 	Scaffold { paddingValues ->
 		Column(
@@ -148,10 +149,19 @@ fun Gallery(navController: NavHostController) {
 				previewImage = Res.drawable.TwentyFourGremlins,
 				neonColor = neonBlue
 			)
+			// 2025 Gallery Card with yellow neon
+			GalleryCard(
+				year = "2025",
+				description = TranslationManager.translate("gallery_2025_preview_description"),
+				emojis = listOf("🏆", "🎪", "✨"),
+				onClick = { navController.navigate("gallery2025") },
+				previewImage = Res.drawable.TwentyFourGremlins,
+				neonColor = neonYellow
+			)
 
 			Spacer(modifier = Modifier.height(24.dp))
 
-			// 2025 Preview Card with neon green
+			// 2026 Preview Card with neon green
 			val previewScale by rememberInfiniteTransition().animateFloat(
 				initialValue = 1f,
 				targetValue = 1.05f,
