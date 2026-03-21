@@ -69,8 +69,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.navigation
 import androidx.navigation.compose.rememberNavController
-import bridgwatercarnival.composeapp.generated.resources.AllOut
-import bridgwatercarnival.composeapp.generated.resources.CarnivalBannerUpdatedAug
+import bridgwatercarnival.composeapp.generated.resources._2025CarnivalBanner
 import bridgwatercarnival.composeapp.generated.resources.Res
 import bridgwatercarnival.composeapp.generated.resources.AllOut
 import bridgwatercarnival.composeapp.generated.resources.TwentyFiveBanner
@@ -441,7 +440,7 @@ fun TopAppBar() {
 		horizontalAlignment = Alignment.CenterHorizontally
 	) {
 		Image(
-			painter = painterResource(Res.drawable.AllOut),
+			painter = painterResource(Res.drawable._2025CarnivalBanner),
 			contentDescription = "Bridgwater Carnival Banner",
 			contentScale = ContentScale.FillWidth,
 			modifier = Modifier
