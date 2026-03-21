@@ -149,6 +149,9 @@ fun Gallery(navController: NavHostController) {
 				previewImage = Res.drawable.TwentyFourGremlins,
 				neonColor = neonBlue
 			)
+
+			Spacer(modifier = Modifier.height(16.dp))
+
 			// 2025 Gallery Card with yellow neon
 			GalleryCard(
 				year = "2025",
@@ -209,7 +212,7 @@ fun Gallery(navController: NavHostController) {
 						shape = RoundedCornerShape(16.dp)
 					)
 					.clip(RoundedCornerShape(16.dp))
-					.clickable { navController.navigate("gallery2025") }
+					.clickable { navController.navigate("gallery2026") }
 					.graphicsLayer {
 						scaleX = previewScale
 						scaleY = previewScale
@@ -223,7 +226,7 @@ fun Gallery(navController: NavHostController) {
 					horizontalAlignment = Alignment.CenterHorizontally
 				) {
 					Text(
-						text = TranslationManager.translate("gallery_2025_title"),
+						text = TranslationManager.translate("gallery_2026_title"),
 						style = MaterialTheme.typography.h6,
 						fontFamily = bungeeFont,
 						color = MaterialTheme.colors.primary,
@@ -264,7 +267,7 @@ fun Gallery(navController: NavHostController) {
 					Spacer(modifier = Modifier.height(16.dp))
 
 					Text(
-						text = TranslationManager.translate("coming_2025"),
+						text = TranslationManager.translate("coming_2026"),
 						style = MaterialTheme.typography.h6,
 						color = MaterialTheme.colors.primary,
 						fontFamily = bungeeFont
@@ -273,7 +276,7 @@ fun Gallery(navController: NavHostController) {
 					Spacer(modifier = Modifier.height(8.dp))
 
 					Text(
-						text = TranslationManager.translate("gallery_2025_preview_description"),
+						text = TranslationManager.translate("gallery_2026_preview_description"),
 						style = MaterialTheme.typography.body1,
 						color = MaterialTheme.colors.onSurface.copy(alpha = 0.7f),
 						textAlign = TextAlign.Center

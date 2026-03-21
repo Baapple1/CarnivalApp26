@@ -200,8 +200,8 @@ object EnglishTranslations {
         "closure_point_12" to "Parkway procession assembly area From 0900 hours",
         
         // Gallery 2024 translations
-        "gallery_2024_title" to "✨ Bridgwater Carnival 2024 ✨",
         "gallery_2024_description" to "2024 Carnival Gallery. Showing photos from all carnival clubs. Swipe up or down to browse.",
+        "gallery_2024_title" to "✨ Bridgwater Carnival 2024 ✨",
         "double_tap_view_photo" to "Double tap to view full size photo.",
         "view_full_size_photo" to "View full size photo",
         "fullscreen_photo_instructions" to "Full screen photo view. You can zoom in by pinching with two fingers, and move around by dragging with three fingers. There's a close button at the top right - double tap it to go back to the gallery.",
@@ -237,18 +237,58 @@ object EnglishTranslations {
         "masqueraders_title" to "Masqueraders",
         "masqueraders_title" to "🌟 Masqueraders",
         "masqueraders_description" to "Step right up to see the Masqueraders' spectacular 2024 carnival performance.",
-        
+
         // Gallery 2025 translations
+        "gallery_2025_description" to "2025 Carnival Gallery. Showing photos from all carnival clubs. Swipe up or down to browse.",
         "gallery_2025_title" to "✨ Bridgwater Carnival 2025 ✨",
-        "coming_2025" to "🎪 Coming in 2025! 🎭",
-        "gallery_2025_description" to "Get ready for an incredible celebration of creativity and community! Photos from the 2025 carnival will be shown here after the event.",
+        "double_tap_view_photo" to "Double tap to view full size photo.",
+        "view_full_size_photo" to "View full size photo",
+        "fullscreen_photo_instructions" to "Full screen photo view. You can zoom in by pinching with two fingers, and move around by dragging with three fingers. There's a close button at the top right - double tap it to go back to the gallery.",
+        "close_fullscreen" to "Close full screen view",
+
+        // Carnival Clubs 2025
+        "gremlins_title" to "Gremlins Carnival Club",
+        "gremlins_description" to "The champions of 2024! Experience BEATLEMANIA with the Gremlins' winning carnival entry.",
+        "ramblers_title" to "Ramblers Carnival Club",
+        "ramblers_description" to "Join the fun with Ramblers' exciting Pinball entry at the 2024 carnival.",
+        "renegades_title" to "Renegades Carnival Club",
+        "renegades_description" to "Step into The Manor with Renegades' magnificent 2024 carnival entry.",
+        "marketeers_title" to "Marketeers Carnival Club",
+        "marketeers_description" to "Soar with Spirit of the Eagle, the Marketeers' inspiring new beginnings for 2024.",
+        "lime_kiln_title" to "Lime Kiln Carnival Club",
+        "lime_kiln_description" to "Celebrate at Oktoberfest with Lime Kiln's festive 2024 carnival entry.",
+        "vagabonds_title" to "Vagabonds Carnival Club",
+        "vagabonds_description" to "Discover The Green Dragon - A Brewery Tale with the Vagabonds' creative 2024 entry.",
+        "griffens_title" to "Griffens Carnival Club",
+        "griffens_description" to "Take flight with The Great Air Race in Griffens' thrilling 2024 carnival entry.",
+        "crusaders_title" to "Crusaders Carnival Club",
+        "crusaders_description" to "Venture into space with the Crusaders' exciting Space Pirates entry for 2024.",
+        "new_market_title" to "New Market Carnival Club",
+        "new_market_description" to "Pedal through the Tour de Somerset with New Market's sporty 2024 entry.",
+        "marina_sydenham_title" to "Marina Sydenham Carnival Club",
+        "marina_sydenham_description" to "Join the celebration of Carnivale de Mardi Gras with Marina Sydenham's 2024 entry.",
+        "pentathlon_title" to "Pentathlon Carnival Club",
+        "pentathlon_description" to "Ride with the Outlaws in Pentathlon's adventurous 2024 carnival entry.",
+        "hillview_title" to "Hillview Carnival Club",
+        "hillview_description" to "Meet the Country Kidz in Hillview's charming 2024 carnival entry.",
+        "harliquin_title" to "Harliquin Carnival Club",
+        "harliquin_description" to "Play along with Pinball in Harlequin's entertaining 2024 carnival entry.",
+        "masqueraders_title" to "Masqueraders",
+        "masqueraders_title" to "🌟 Masqueraders",
+        "masqueraders_description" to "Step right up to see the Masqueraders' spectacular 2024 carnival performance.",
+
+        // Gallery 2026 translations
+        "gallery_2026_title" to "✨ Bridgwater Carnival 2026 ✨",
+        "coming_2026" to "🎪 Coming in 2026! 🎭",
+        "gallery_2026_description" to "Get ready for an incredible celebration of creativity and community! Photos from the 2026 carnival will be shown here after the event.",
 
         // Gallery page translations
         "gallery_title" to "✨ Carnival Gallery ✨",
         "gallery_year_title" to "Bridgwater Carnival {year}",
         "gallery_2023_preview_description" to "View photos from the 2023 Bridgwater carnival!",
         "gallery_2024_preview_description" to "View photos from the 2024 Bridgwater carnival!",
-        "gallery_2025_preview_description" to "Click to see a special preview",
+        "gallery_2025_preview_description" to "View photos from the 2025 Bridgwater carnival!",
+        "gallery_2026_preview_description" to "Click to see a preview",
 
         // Gallery 2023 translations
         "gallery_2023_title" to "✨ Bridgwater Carnival 2023 ✨",
