@@ -69,8 +69,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.navigation
 import androidx.navigation.compose.rememberNavController
+import bridgwatercarnival.composeapp.generated.resources.AllOut
 import bridgwatercarnival.composeapp.generated.resources.CarnivalBannerUpdatedAug
 import bridgwatercarnival.composeapp.generated.resources.Res
+import bridgwatercarnival.composeapp.generated.resources.AllOut
 import bridgwatercarnival.composeapp.generated.resources.TwentyFiveBanner
 import bridgwatercarnival.composeapp.generated.resources.info_32
 import bridgwatercarnival.composeapp.generated.resources.map_32
@@ -79,6 +81,7 @@ import bridgwatercarnival.composeapp.generated.resources.store_32
 import kotlinx.coroutines.launch
 import kotlinx.datetime.Clock
 import kotlinx.datetime.LocalDateTime
+import kotlinx.datetime.Month
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toInstant
 import kotlinx.datetime.toLocalDateTime
@@ -92,6 +95,7 @@ import org.bridgwatercarnival.companion.pages.Gallery
 import org.bridgwatercarnival.companion.pages.Gallery2023
 import org.bridgwatercarnival.companion.pages.Gallery2024
 import org.bridgwatercarnival.companion.pages.Gallery2025
+import org.bridgwatercarnival.companion.pages.Gallery2026
 import org.bridgwatercarnival.companion.pages.Help
 import org.bridgwatercarnival.companion.pages.News
 import org.bridgwatercarnival.companion.pages.Parking
@@ -136,6 +140,7 @@ enum class PageIndex(val subPage: Boolean = false) {
 	GALLERY2023(true),
 	GALLERY2024(true),
 	GALLERY2025(true),
+	GALLERY2026(true),
 	SOCIAL_MEDIA(true),
 	APP_INFO(true),
 	VOTING(true),
@@ -392,6 +397,7 @@ fun App(navController: NavHostController = rememberNavController()) {
 							composable(route = PageIndex.GALLERY2023.name) { Gallery2023(navController) }
 							composable(route = PageIndex.GALLERY.name) { Gallery(navController) }
 							composable(route = PageIndex.GALLERY2025.name) { Gallery2025(navController) }
+							composable(route = PageIndex.GALLERY2026.name) { Gallery2026(navController) }
 							composable(route = PageIndex.NEWS.name) { News(navController) }
 							composable(route = PageIndex.FAQ.name) { FAQ(navController) }
 
@@ -435,7 +441,7 @@ fun TopAppBar() {
 		horizontalAlignment = Alignment.CenterHorizontally
 	) {
 		Image(
-			painter = painterResource(Res.drawable.CarnivalBannerUpdatedAug),
+			painter = painterResource(Res.drawable.AllOut),
 			contentDescription = "Bridgwater Carnival Banner",
 			contentScale = ContentScale.FillWidth,
 			modifier = Modifier
@@ -615,7 +621,7 @@ fun WelcomeDialog(onDismiss: () -> Unit) {
 		.toInstant(ukTimeZone)
 
 	// If we're past this year's carnival, set target to next year
-	if (currentDateTime.month == kotlinx.datetime.Month.NOVEMBER && currentDateTime.dayOfMonth > 1) {
+	if (currentDateTime.month == Month.NOVEMBER && currentDateTime.dayOfMonth > 1) {
 		target = LocalDateTime(currentYear + 1, 11, 1, 0, 0)
 			.toInstant(ukTimeZone)
 	}
@@ -627,7 +633,7 @@ fun WelcomeDialog(onDismiss: () -> Unit) {
 	val minutes = duration.inWholeMinutes % 60
 
 	// Check if it's carnival day (November 1st)
-	val isCarnivalDay = currentDateTime.month == kotlinx.datetime.Month.NOVEMBER && 
+	val isCarnivalDay = currentDateTime.month == Month.NOVEMBER && 
 			currentDateTime.dayOfMonth == 1
 
 	AlertDialog(
