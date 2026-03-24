@@ -276,6 +276,10 @@ object EnglishTranslations {
         "masqueraders_title" to "Masqueraders",
         "masqueraders_title" to "🌟 Masqueraders",
         "masqueraders_description" to "Step right up to see the Masqueraders' spectacular 2024 carnival performance.",
+        "wilfs_title" to "🌟 Wilfs",
+        "wilfs_description" to "body text.",
+        "wills_title" to "🌟 Wills",
+        "wills_description" to "body text.",
 
         // Gallery 2026 translations
         "gallery_2026_title" to "✨ Bridgwater Carnival 2026 ✨",

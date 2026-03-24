@@ -94,7 +94,10 @@ fun Gallery2025(navController: NavHostController) {
                     }
                 }
                 .semantics {
-                    contentDescription = "${TranslationManager.translate(title)}. ${TranslationManager.translate(text)} ${TranslationManager.translate("double_tap_view_photo")}"
+                    contentDescription =
+                        "${TranslationManager.translate(title)}. ${TranslationManager.translate(text)} ${
+                            TranslationManager.translate("double_tap_view_photo")
+                        }"
                 }
                 .clickable(
                     onClickLabel = TranslationManager.translate("view_full_size_photo"),
@@ -161,7 +164,8 @@ fun Gallery2025(navController: NavHostController) {
                 .fillMaxSize()
                 .background(Color.Black.copy(alpha = 0.9f))
                 .semantics(mergeDescendants = true) {
-                    contentDescription = TranslationManager.translate("fullscreen_photo_instructions")
+                    contentDescription =
+                        TranslationManager.translate("fullscreen_photo_instructions")
                 }
                 .pointerInput(Unit) {
                     detectTransformGestures { _, pan, zoom, _ ->
@@ -219,7 +223,8 @@ fun Gallery2025(navController: NavHostController) {
                     .padding(horizontal = 16.dp)
                     .verticalScroll(scrollState)
                     .semantics {
-                        contentDescription = TranslationManager.translate("gallery_2025_description")
+                        contentDescription =
+                            TranslationManager.translate("gallery_2025_description")
                     },
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
@@ -257,74 +262,68 @@ fun Gallery2025(navController: NavHostController) {
                     Triple(
                         TranslationManager.translate("gremlins_title"),
                         TranslationManager.translate("gremlins_description"),
-                        Res.drawable.TwentyFourGremlins
+                        Res.drawable.Gremlins25
                     ),
                     Triple(
                         TranslationManager.translate("ramblers_title"),
                         TranslationManager.translate("ramblers_description"),
-                        Res.drawable.TwentyFourRamblers
+                        Res.drawable.Ramblers25
                     ),
                     Triple(
                         TranslationManager.translate("renegades_title"),
                         TranslationManager.translate("renegades_description"),
-                        Res.drawable.TwentyFourRenegades
+                        Res.drawable.Renegades25
                     ),
                     Triple(
                         TranslationManager.translate("marketeers_title"),
                         TranslationManager.translate("marketeers_description"),
-                        Res.drawable.TwentyFourMarketeers
+                        Res.drawable.Marketeers25
                     ),
                     Triple(
                         TranslationManager.translate("lime_kiln_title"),
                         TranslationManager.translate("lime_kiln_description"),
-                        Res.drawable.TwentyFourLimeKiln
+                        Res.drawable.LimeKiln25
                     ),
                     Triple(
                         TranslationManager.translate("vagabonds_title"),
                         TranslationManager.translate("vagabonds_description"),
-                        Res.drawable.TwentyFourVagabonds
+                        Res.drawable.Vagabonds25
                     ),
                     Triple(
                         TranslationManager.translate("griffens_title"),
                         TranslationManager.translate("griffens_description"),
-                        Res.drawable.TwentyFourGriffens
+                        Res.drawable.Griffens25
                     ),
                     Triple(
                         TranslationManager.translate("crusaders_title"),
                         TranslationManager.translate("crusaders_description"),
-                        Res.drawable.TwentyFourCrusaders
+                        Res.drawable.Crusaders25
                     ),
                     Triple(
                         TranslationManager.translate("new_market_title"),
                         TranslationManager.translate("new_market_description"),
-                        Res.drawable.TwentyFourNewmarket
+                        Res.drawable.Newmarket25
                     ),
                     Triple(
                         TranslationManager.translate("marina_sydenham_title"),
                         TranslationManager.translate("marina_sydenham_description"),
-                        Res.drawable.TwentyFourMarina
+                        Res.drawable.MarinaSyden25
                     ),
+
                     Triple(
-                        TranslationManager.translate("pentathlon_title"),
-                        TranslationManager.translate("pentathlon_description"),
-                        Res.drawable.TwentyFourPentathlon
+                        TranslationManager.translate("wilfs_title"),
+                        TranslationManager.translate("wilfs_description"),
+                        Res.drawable.Wilfs25
                     ),
+
                     Triple(
-                        TranslationManager.translate("hillview_title"),
-                        TranslationManager.translate("hillview_description"),
-                        Res.drawable.TwentyFourHillview
-                    ),
-                    Triple(
-                        TranslationManager.translate("harliquin_title"),
-                        TranslationManager.translate("harliquin_description"),
-                        Res.drawable.TwentyFourHarlequin
-                    ),
-                    Triple(
-                        TranslationManager.translate("masqueraders_title"),
-                        TranslationManager.translate("masqueraders_description"),
-                        Res.drawable.TwentyFourMasqueraders
+                        TranslationManager.translate("wills_title"),
+                        TranslationManager.translate("wills_description"),
+                        Res.drawable.Wills25
                     )
                 )
+
+
                 // Create accessible cards for each carnival club
                 contentList.forEach { (title, text, image) ->
                     ContentBox(title, text, image)

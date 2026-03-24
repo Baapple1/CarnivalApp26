@@ -27,6 +27,7 @@ import androidx.compose.foundation.border
 import org.bridgwatercarnival.companion.util.TranslationManager
 import org.bridgwatercarnival.companion.components.VideoPlayerComponent
 import androidx.compose.ui.text.font.FontWeight
+import bridgwatercarnival.composeapp.generated.resources.AllOut
 
 @Composable
 fun Gallery(navController: NavHostController) {
@@ -158,7 +159,7 @@ fun Gallery(navController: NavHostController) {
 				description = TranslationManager.translate("gallery_2025_preview_description"),
 				emojis = listOf("🏆", "🎪", "✨"),
 				onClick = { navController.navigate("gallery2025") },
-				previewImage = Res.drawable.TwentyFourGremlins,
+				previewImage = Res.drawable.AllOut,
 				neonColor = neonYellow
 			)
 
