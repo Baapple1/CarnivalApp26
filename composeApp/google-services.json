@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "94163956579",
+    "project_id": "bgfc-app",
+    "storage_bucket": "bgfc-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94163956579:android:bf6df741a9cf6a6eef9956",
+        "android_client_info": {
+          "package_name": "org.bridgwatercarnival.companion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDUhojQB2L1g5qJga_7eJfjSFCHK-fpZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
