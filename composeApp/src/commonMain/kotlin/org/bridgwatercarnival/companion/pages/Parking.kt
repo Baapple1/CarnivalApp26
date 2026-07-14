@@ -43,6 +43,8 @@ import bridgwatercarnival.composeapp.generated.resources.roadmap
 import org.bridgwatercarnival.companion.theme.bungeeFont
 import org.bridgwatercarnival.companion.util.TranslationManager
 import org.bridgwatercarnival.companion.util.getUriHandler
+import org.bridgwatercarnival.companion.util.PlatformType
+import org.bridgwatercarnival.companion.util.getCurrentPlatformType
 import org.bridgwatercarnival.companion.components.SocialMediaIframe
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.DrawableResource
@@ -51,7 +53,8 @@ data class CarParkInfo(
 	val name: String,
 	val street: String,
 	val postcode: String,
-	val openingTime: String
+	val openingTime: String,
+	val coordinates: String
 )
 
 @Composable
@@ -59,6 +62,8 @@ fun Parking(navController: NavHostController) {
 	val scrollState = rememberScrollState()
 	var expandedImage by remember { mutableStateOf<DrawableResource?>(null) }
 	var zoomState by remember { mutableStateOf(1f) }
+	val uriHandler = getUriHandler()
+	val platformType = getCurrentPlatformType()
 
 	if (expandedImage != null) {
 		var offsetX by remember { mutableStateOf(0f) }
@@ -233,7 +238,7 @@ fun Parking(navController: NavHostController) {
 						targetValue = if (expanded) 180f else 0f,
 						animationSpec = tween(300)
 					)
-					
+
 					Card(
 						modifier = Modifier
 							.fillMaxWidth()
@@ -322,7 +327,7 @@ fun Parking(navController: NavHostController) {
 						color = Color.Black,
 						modifier = Modifier.padding(bottom = 12.dp)
 					)
-					
+
 					Row(
 						modifier = Modifier.fillMaxWidth(),
 						horizontalArrangement = Arrangement.SpaceEvenly
@@ -354,9 +359,9 @@ fun Parking(navController: NavHostController) {
 							)
 						}
 					}
-					
+
 					Spacer(modifier = Modifier.height(12.dp))
-					
+
 					Row(
 						modifier = Modifier.fillMaxWidth(),
 						horizontalArrangement = Arrangement.SpaceEvenly
@@ -451,7 +456,7 @@ fun Parking(navController: NavHostController) {
 							)
 						}
 					}
-					
+
 					Text(
 						text = "Many blue badge spaces available",
 						style = MaterialTheme.typography.body2,
@@ -461,28 +466,29 @@ fun Parking(navController: NavHostController) {
 							.fillMaxWidth()
 							.padding(bottom = 12.dp)
 					)
-					
+
 					// Car Parks Grid
 					LazyVerticalGrid(
 						columns = GridCells.Fixed(2),
 						horizontalArrangement = Arrangement.spacedBy(8.dp),
 						verticalArrangement = Arrangement.spacedBy(8.dp),
-						modifier = Modifier.height(280.dp)
+						modifier = Modifier.height(350.dp)
 					) {
 						val carParks = listOf(
-							CarParkInfo("ASDA - SNAP", "East Quay", "TA6 5AZ", "2:00pm"),
-							CarParkInfo("BRIDGWATER HOSPITAL - Royal British Legion", "Bower Lane", "TA6 4GU", "2:00pm"),
-							CarParkInfo("BLAKE - Bridgwater Sea Cadets", "Northgate", "TA6 3EU", "10:00am"),
-							CarParkInfo("WICKES - Weston Operatic", "Wylds Road", "TA6 4DH", "2:00pm"),
-							CarParkInfo("MORRISONS - Bridgwater Rotary Club", "Broadway", "TA6 3LN", "2:00pm"),
-							CarParkInfo("B&M - Bridgwater Rotary Club", "Broadway", "TA6 3LN", "2:00pm"),
-							CarParkInfo("WEST QUAY - Bridgwater Sea Cadets", "Northgate", "TA6 3EU", "10:00am"),
-							CarParkInfo("POLDEN BOWER SCHOOL - Royal British Legion", "Bower Lane", "TA6 4GU", "3:30pm"),
-							CarParkInfo("ST. MATTHEWS FIELD - Westfield Church", "West Street", "TA6 7HD", "10:30am"),
-							CarParkInfo("UCS COLLEGE - Wilstock Hub", "Bath Road", "TA6 4PZ", "10:30am")
+							CarParkInfo("ASDA - SNAP", "East Quay", "TA6 5AZ", "2:00pm", "51.13057513122341,-2.999515744804497"),
+							CarParkInfo("BRIDGWATER HOSPITAL - Royal British Legion", "Bower Lane", "TA6 4GU", "2:00pm", "51.1409344134999,-2.9753077989478713"),
+							CarParkInfo("BLAKE - Bridgwater Sea Cadets", "Northgate", "TA6 3EU", "10:00am", "51.13113154634135,-3.0033088940047166"),
+							CarParkInfo("WICKES - Weston Operatic", "Wylds Road", "TA6 4DH", "2:00pm", "51.136255904015414,-2.999384322992658"),
+							CarParkInfo("MORRISONS - Bridgwater Rotary Club", "Broadway", "TA6 3LN", "2:00pm", "51.12484026457824,-3.0029453985243886"),
+							CarParkInfo("B&M - Bridgwater Rotary Club", "Broadway", "TA6 3LN", "2:00pm", "51.12511284766959,-3.005504556856558"),
+							CarParkInfo("WEST QUAY - Bridgwater Sea Cadets", "Northgate", "TA6 3EU", "10:00am", "51.13113154634135,-3.0033088940047166"),
+							CarParkInfo("POLDEN BOWER SCHOOL - Royal British Legion", "Bower Lane", "TA6 4GU", "3:30pm", "51.1409344134999,-2.9753077989478713"),
+							CarParkInfo("ST. MATTHEWS FIELD - Westfield Church", "West Street", "TA6 7HD", "10:30am", "51.12378474061676,-3.014021403522863"),
+							CarParkInfo("UCS COLLEGE - Wilstock Hub", "Bath Road", "TA6 4PZ", "10:30am", "51.1325,-2.9863")
 						)
-						
+
 						items(carParks.size) { index ->
+							val carPark = carParks[index]
 							Card(
 								backgroundColor = when (index % 5) {
 									0 -> Color(0xFFE3F2FD) // Light blue
@@ -491,7 +497,15 @@ fun Parking(navController: NavHostController) {
 									3 -> Color(0xFFFFF3E0) // Light orange
 									else -> Color(0xFFFFEBEE) // Light red
 								},
-								shape = RoundedCornerShape(8.dp)
+								shape = RoundedCornerShape(8.dp),
+								modifier = Modifier.clickable {
+									val uri = when (platformType) {
+										PlatformType.IOS -> "maps://?q=${carPark.coordinates}"
+										PlatformType.ANDROID -> "geo:${carPark.coordinates}?q=${carPark.coordinates}(${carPark.name})"
+										else -> "geo:${carPark.coordinates}?q=${carPark.coordinates}(${carPark.name})"
+									}
+									uriHandler.openUri(uri)
+								}
 							) {
 								Column(
 									modifier = Modifier.padding(8.dp),
@@ -601,9 +615,9 @@ fun Parking(navController: NavHostController) {
 							)
 						}
 					}
-					
+
 					Spacer(modifier = Modifier.height(12.dp))
-					
+
 					Text(
 						text = "All close at midnight",
 						style = MaterialTheme.typography.body2.copy(
