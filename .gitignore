@@ -44,7 +44,7 @@ ehthumbs.db
 Thumbs.db
 
 # Firebase
-#google-services.json
+google-services.json
 GoogleService-Info.plist
 
 # Other

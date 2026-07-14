@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsCompose)
     alias(libs.plugins.compose.compiler)
-    kotlin("plugin.serialization") version "1.9.10"
+    alias(libs.plugins.kotlinSerialization)
     id("com.google.gms.google-services")
 }
 
