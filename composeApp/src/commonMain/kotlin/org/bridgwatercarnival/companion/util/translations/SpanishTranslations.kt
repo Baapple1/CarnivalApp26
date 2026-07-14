@@ -430,7 +430,7 @@ object SpanishTranslations {
         "news_note_open_link" to "Nota: Si un botón no funciona, manténgalo presionado y pulse 'Abrir enlace' para abrir el sitio web en el navegador.",
 
         // FAQ translations
-        "faq_title" to "Preguntas Frecuentes",
+        "faq_title" to "FAQs",
         "faq_q1" to "¿A qué hora comienza el carnaval?",
         "faq_a1" to "La procesión del carnaval normalmente comienza a las 18:00 el 1 de noviembre. Sin embargo, recomendamos llegar temprano para asegurar un buen lugar y disfrutar del entretenimiento previo al carnaval.",
         "faq_q2" to "¿Dónde puedo aparcar?",

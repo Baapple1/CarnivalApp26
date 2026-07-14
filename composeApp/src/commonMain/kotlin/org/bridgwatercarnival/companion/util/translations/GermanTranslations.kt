@@ -418,7 +418,7 @@ object GermanTranslations {
         "keep_enabled" to "Aktiviert Lassen",
 
         // FAQ translations
-        "faq_title" to "Häufig gestellte Fragen",
+        "faq_title" to "FAQs",
         "faq_q1" to "Wann beginnt der Karneval?",
         "faq_a1" to "Der Karnevalsumzug beginnt in der Regel um 18:00 Uhr am 1. November. Wir empfehlen jedoch, frühzeitig zu kommen, um einen guten Platz zu sichern und das Vorprogramm zu genießen.",
         "faq_q2" to "Wo kann ich parken?",

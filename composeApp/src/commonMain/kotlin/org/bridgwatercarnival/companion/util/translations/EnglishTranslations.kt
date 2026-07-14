@@ -536,7 +536,7 @@ object EnglishTranslations {
         "results_notifications" to "Results Notifications",
 
         // FAQ translations
-        "faq_title" to "Frequently Asked Questions",
+        "faq_title" to "FAQs",
         "faq_q1" to "What time does the carnival start?",
         "faq_a1" to "The carnival procession typically starts at 6:00 PM on November 1st. However, we recommend arriving early to secure a good viewing spot and enjoy the pre-carnival entertainment.",
         "faq_q2" to "Where can I park?",

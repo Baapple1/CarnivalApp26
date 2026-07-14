@@ -421,7 +421,7 @@ object ItalianTranslations {
 
 
         // FAQ translations
-        "faq_title" to "Domande Frequenti",
+        "faq_title" to "FAQs",
         "faq_q1" to "A che ora inizia il carnevale?",
         "faq_a1" to "La processione del carnevale inizia solitamente alle 18:00 del 1° novembre. Tuttavia, consigliamo di arrivare presto per assicurarsi un buon posto e godersi l'intrattenimento pre-corteo.",
         "faq_q2" to "Dove posso parcheggiare?",

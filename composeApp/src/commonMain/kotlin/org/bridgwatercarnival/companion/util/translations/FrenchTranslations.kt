@@ -434,6 +434,9 @@ object FrenchTranslations {
         "news_title" to "Dernières Nouvelles",
         "help_news_title" to "Fil d'Actualités",
         // News page note
-        "news_note_open_link" to "Remarque : Si un bouton ne fonctionne pas, maintenez-le enfoncé et appuyez sur 'Ouvrir le lien' pour ouvrir le site dans le navigateur."
+        "news_note_open_link" to "Remarque : Si un bouton ne fonctionne pas, maintenez-le enfoncé et appuyez sur 'Ouvrir le lien' pour ouvrir le site dans le navigateur.",
+
+        // FAQ translations
+        "faq_title" to "FAQs"
     )
 } 
