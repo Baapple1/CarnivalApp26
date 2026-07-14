@@ -119,6 +119,7 @@ object ThemeColors {
 	// Card background colors (darker versions)
 	val essentialColor = Color(0xFF1565C0) // Darker blue
 	val travelColor = Color(0xFF00796B) // Darker teal
+	val closureColor = Color(0xFF5E3F73) // Darker purple
 	val entertainmentColor = Color(0xFF2E7D32) // Darker green
 	val votingColor = Color(0xFFEF6C00) // Darker orange
 	val additionalColor = Color(0xFFC62828) // Darker red for additional info
@@ -126,6 +127,7 @@ object ThemeColors {
 	// Pastel background colors for dropdown cards
 	val essentialPastel = Color(0xFFBBDEFB) // Light pastel blue
 	val travelPastel = Color(0xFFB2DFDB) // Light pastel teal
+	val closurePastel = Color(0xFFCDB4DB) // Light pastel purple
 	val entertainmentPastel = Color(0xFFC8E6C9) // Light pastel green
 	val votingPastel = Color(0xFFFFE0B2) // Light pastel orange
 	val additionalPastel = Color(0xFFFFCDD2) // Light pastel red
@@ -289,7 +291,7 @@ fun Help(onNavigate: (PageIndex) -> Unit) {
 
 	// Expanded states for each category
 	var essentialExpanded by rememberSaveable { mutableStateOf(false) }
-	var travelExpanded by rememberSaveable { mutableStateOf(false) }
+	var parkingExpanded by rememberSaveable { mutableStateOf(false) }
 	var entertainmentExpanded by rememberSaveable { mutableStateOf(false) }
 	var additionalExpanded by rememberSaveable { mutableStateOf(false) }
 	var votingExpanded by rememberSaveable { mutableStateOf(false) }
@@ -405,11 +407,85 @@ fun Help(onNavigate: (PageIndex) -> Unit) {
 			}
 		}
 
-		// Travel & Access Section
+		// Parking Section
+		Card(
+			modifier = Modifier
+				.fillMaxWidth()
+				.padding(vertical = 8.dp),
+			backgroundColor = Color(0xFFB2DFDB), // Travel Pastel
+			elevation = 8.dp,
+			shape = RoundedCornerShape(16.dp)
+		) {
+			Surface(
+				modifier = Modifier
+					.fillMaxWidth()
+					.clickable { onNavigate(PageIndex.PARKING) }
+					.height(72.dp) // Match dropdown height
+					.padding(horizontal = 20.dp),
+				color = ThemeColors.travelPastel,
+				shape = RoundedCornerShape(16.dp)
+			) {
+				Row(
+					modifier = Modifier
+						.fillMaxWidth(),
+					horizontalArrangement = Arrangement.Start, // Left align
+					verticalAlignment = Alignment.CenterVertically
+				) {
+					Text(
+						text = TranslationManager.translate("parking"),
+						style = MaterialTheme.typography.h6.copy(
+							fontWeight = FontWeight.Bold,
+							color = ThemeColors.travelColor, // Match dropdown text color
+							fontSize = 20.sp // Match dropdown font size
+						),
+						textAlign = TextAlign.Start
+					)
+				}
+			}
+		}
+
+		// Road Closures Section
+		Card(
+			modifier = Modifier
+				.fillMaxWidth()
+				.padding(vertical = 8.dp),
+			backgroundColor = Color(0xFFCDB4DB), // Closure Pastel
+			elevation = 8.dp,
+			shape = RoundedCornerShape(16.dp)
+		) {
+			Surface(
+				modifier = Modifier
+					.fillMaxWidth()
+					.clickable { onNavigate(PageIndex.ROAD_CLOSURE) }
+					.height(72.dp) // Match dropdown height
+					.padding(horizontal = 20.dp),
+				color = ThemeColors.closurePastel,
+				shape = RoundedCornerShape(16.dp)
+			) {
+				Row(
+					modifier = Modifier
+						.fillMaxWidth(),
+					horizontalArrangement = Arrangement.Start, // Left align
+					verticalAlignment = Alignment.CenterVertically
+				) {
+					Text(
+						text = TranslationManager.translate("road_closures")  + " \uD83D\uDEA7", // 🚧 emoji after text
+						style = MaterialTheme.typography.h6.copy(
+							fontWeight = FontWeight.Bold,
+							color = ThemeColors.closureColor, // Match dropdown text color
+							fontSize = 20.sp // Match dropdown font size
+						),
+						textAlign = TextAlign.Start
+					)
+				}
+			}
+		}
+
+		/*
 		ExpandableCategory(
-			title = TranslationManager.translate("travel_access"),
-			expanded = travelExpanded,
-			onExpandedChange = { travelExpanded = it },
+			title = TranslationManager.translate("parking"),
+			expanded = parkingExpanded,
+			onExpandedChange = { parkingExpanded = it },
 			color = ThemeColors.travelColor,
 			backgroundColor = ThemeColors.travelPastel
 		) {
@@ -449,6 +525,7 @@ fun Help(onNavigate: (PageIndex) -> Unit) {
 				)
 			}
 		}
+		*/
 
 		// Entertainment Section
 		ExpandableCategory(

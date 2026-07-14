@@ -103,6 +103,7 @@ object ThemeColors {
 	// Card background colors (darker versions)
 	val essentialColor = Color(0xFF1565C0) // Darker blue
 	val travelColor = Color(0xFF00796B) // Darker teal
+	val closureColor = Color(0xFF5E3F73) // Darker purple
 	val entertainmentColor = Color(0xFF2E7D32) // Darker green
 	val votingColor = Color(0xFFEF6C00) // Darker orange
 	val additionalColor = Color(0xFFC62828) // Darker red for additional info
@@ -110,6 +111,7 @@ object ThemeColors {
 	// Pastel background colors for dropdown cards
 	val essentialPastel = Color(0xFFBBDEFB) // Light pastel blue
 	val travelPastel = Color(0xFFB2DFDB) // Light pastel teal
+	val closurePastel = Color(0xFFCDB4DB) //Light pastel purple
 	val entertainmentPastel = Color(0xFFC8E6C9) // Light pastel green
 	val votingPastel = Color(0xFFFFE0B2) // Light pastel orange
 	val additionalPastel = Color(0xFFFFCDD2) // Light pastel red
@@ -294,7 +296,7 @@ fun Help(onNavigate: (PageIndex) -> Unit) {
 
 	// Expanded states for each category
 	var essentialExpanded by remember { mutableStateOf(false) }
-	var travelExpanded by remember { mutableStateOf(false) }
+	var parkingExpanded by remember { mutableStateOf(false) }
 	var entertainmentExpanded by remember { mutableStateOf(false) }
 	var additionalExpanded by remember { mutableStateOf(false) }
 	var votingExpanded by remember { mutableStateOf(false) }
@@ -412,11 +414,11 @@ fun Help(onNavigate: (PageIndex) -> Unit) {
 			}
 		}
 
-		// Travel & Access Section
+		// Parking Section
 		ExpandableCategory(
-			title = TranslationManager.translate("travel_access"),
-			expanded = travelExpanded,
-			onExpandedChange = { travelExpanded = it },
+			title = TranslationManager.translate("parking"),
+			expanded = parkingExpanded,
+			onExpandedChange = { parkingExpanded = it },
 			color = ThemeColors.travelColor,
 			backgroundColor = ThemeColors.travelPastel
 		) {
