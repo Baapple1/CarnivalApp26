@@ -708,11 +708,11 @@ private suspend fun updateCountdownState(
 	// Get current year
 	val currentYear = currentDateTime.year
 
-	// Create target date for this year's November 1st
+	// Create target date for this year's November 7th
 	// If in BST, target 5 PM UTC (6 PM BST)
 	// If in GMT, target 6 PM UTC (6 PM GMT)
 	val targetHour = if (isBST) 17 else 18
-	var target = LocalDateTime(currentYear, 11, 1, targetHour, 0)
+	var target = LocalDateTime(currentYear, 11, 7, targetHour, 0)
 		.toInstant(ukTimeZone)
 
 	// If we're past this year's carnival, set target to next year
