@@ -257,17 +257,41 @@ fun Gallery2025(navController: NavHostController) {
                         }
                 )
 
+                Text(
+                    text = TranslationManager.translate("gallery_2025_credit"),
+                    style = MaterialTheme.typography.h6,
+                    fontFamily = bungeeFont,
+                    color = MaterialTheme.colors.primary,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(bottom = 16.dp)
+                        .graphicsLayer {
+                            scaleX = titleScale
+                            scaleY = titleScale
+                        }
+                        .semantics {
+                            heading()
+                            contentDescription = TranslationManager.translate("gallery_2025_credit")
+                        }
+                )
+
                 // List of carnival clubs with their entries
                 val contentList = listOf(
+                    Triple(
+                        TranslationManager.translate("ramblers_title"),
+                        TranslationManager.translate("ramblers_description"),
+                        Res.drawable.Ramblers25
+                    ),
                     Triple(
                         TranslationManager.translate("gremlins_title"),
                         TranslationManager.translate("gremlins_description"),
                         Res.drawable.Gremlins25
                     ),
                     Triple(
-                        TranslationManager.translate("ramblers_title"),
-                        TranslationManager.translate("ramblers_description"),
-                        Res.drawable.Ramblers25
+                        TranslationManager.translate("lime_kiln_title"),
+                        TranslationManager.translate("lime_kiln_description"),
+                        Res.drawable.LimeKiln25
                     ),
                     Triple(
                         TranslationManager.translate("renegades_title"),
@@ -279,15 +303,16 @@ fun Gallery2025(navController: NavHostController) {
                         TranslationManager.translate("marketeers_description"),
                         Res.drawable.Marketeers25
                     ),
-                    Triple(
-                        TranslationManager.translate("lime_kiln_title"),
-                        TranslationManager.translate("lime_kiln_description"),
-                        Res.drawable.LimeKiln25
-                    ),
+
                     Triple(
                         TranslationManager.translate("vagabonds_title"),
                         TranslationManager.translate("vagabonds_description"),
                         Res.drawable.Vagabonds25
+                    ),
+                    Triple(
+                        TranslationManager.translate("british_flag_title"),
+                        TranslationManager.translate("british_flag_description"),
+                        Res.drawable.BritishFlag25
                     ),
                     Triple(
                         TranslationManager.translate("griffens_title"),
@@ -300,27 +325,40 @@ fun Gallery2025(navController: NavHostController) {
                         Res.drawable.Crusaders25
                     ),
                     Triple(
-                        TranslationManager.translate("new_market_title"),
-                        TranslationManager.translate("new_market_description"),
-                        Res.drawable.Newmarket25
+                        TranslationManager.translate("wills_title"),
+                        TranslationManager.translate("wills_description"),
+                        Res.drawable.Wills25
+                    ),
+                    Triple(
+                        TranslationManager.translate("centurion_title"),
+                        TranslationManager.translate("centurion_description"),
+                        Res.drawable.Centurion25
                     ),
                     Triple(
                         TranslationManager.translate("marina_sydenham_title"),
                         TranslationManager.translate("marina_sydenham_description"),
                         Res.drawable.MarinaSyden25
                     ),
-
+                    Triple(
+                        TranslationManager.translate("new_market_title"),
+                        TranslationManager.translate("new_market_description"),
+                        Res.drawable.Newmarket25
+                    ),
+                    Triple(
+                        TranslationManager.translate("pentathlon_title"),
+                        TranslationManager.translate("pentathlon_description"),
+                        Res.drawable.Pentathlon25
+                    ),
+                    Triple(
+                        TranslationManager.translate("toppers_title"),
+                        TranslationManager.translate("toppers_description"),
+                        Res.drawable.Toppers25
+                    ),
                     Triple(
                         TranslationManager.translate("wilfs_title"),
                         TranslationManager.translate("wilfs_description"),
                         Res.drawable.Wilfs25
                     ),
-
-                    Triple(
-                        TranslationManager.translate("wills_title"),
-                        TranslationManager.translate("wills_description"),
-                        Res.drawable.Wills25
-                    )
                 )
 
 

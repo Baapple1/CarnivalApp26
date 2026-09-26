@@ -29,6 +29,7 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.heading
 import androidx.compose.ui.semantics.semantics
 import org.bridgwatercarnival.companion.util.TranslatedText
+import org.bridgwatercarnival.companion.util.TranslationManager
 import kotlin.random.Random
 
 // Gallery2023.kt - Displays the 2023 carnival gallery with accessibility support
@@ -250,6 +251,24 @@ fun Gallery2023(navController: NavHostController) {
                         .semantics { 
                             heading()
                             contentDescription = "2023 Carnival Gallery"
+                        }
+                )
+                Text(
+                    text = TranslationManager.translate("gallery_2023_credit"),
+                    style = MaterialTheme.typography.h6,
+                    fontFamily = bungeeFont,
+                    color = MaterialTheme.colors.primary,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(bottom = 16.dp)
+                        .graphicsLayer {
+                            scaleX = titleScale
+                            scaleY = titleScale
+                        }
+                        .semantics {
+                            heading()
+                            contentDescription = TranslationManager.translate("gallery_2023_credit")
                         }
                 )
 

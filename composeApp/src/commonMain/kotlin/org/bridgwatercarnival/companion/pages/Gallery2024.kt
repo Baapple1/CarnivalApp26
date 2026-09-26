@@ -22,6 +22,7 @@ import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.painterResource
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.Text
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.input.pointer.PointerEventType
@@ -250,6 +251,25 @@ fun Gallery2024(navController: NavHostController) {
                             heading()
                             contentDescription = TranslationManager.translate("gallery_2024_title")
                         }
+                )
+
+                Text(
+                        text = TranslationManager.translate("gallery_2024_credit"),
+                style = MaterialTheme.typography.h6,
+                fontFamily = bungeeFont,
+                color = MaterialTheme.colors.primary,
+                textAlign = TextAlign.Center,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(bottom = 16.dp)
+                    .graphicsLayer {
+                        scaleX = titleScale
+                        scaleY = titleScale
+                    }
+                    .semantics {
+                        heading()
+                        contentDescription = TranslationManager.translate("gallery_2024_credit")
+                    }
                 )
 
                 // List of carnival clubs with their entries
