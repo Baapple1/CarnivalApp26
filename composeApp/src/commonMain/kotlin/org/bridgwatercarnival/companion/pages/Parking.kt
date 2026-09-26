@@ -8,11 +8,9 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectTransformGestures
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
-import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -33,19 +31,15 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.platform.LocalUriHandler
 import androidx.navigation.NavHostController
-import bridgwatercarnival.composeapp.generated.resources.CarParkInfo2025
+import bridgwatercarnival.composeapp.generated.resources.CarParkInfo2026
 import bridgwatercarnival.composeapp.generated.resources.Res
-import bridgwatercarnival.composeapp.generated.resources.car_park
 import bridgwatercarnival.composeapp.generated.resources.info_32
-import bridgwatercarnival.composeapp.generated.resources.roadmap
 import org.bridgwatercarnival.companion.theme.bungeeFont
 import org.bridgwatercarnival.companion.util.TranslationManager
 import org.bridgwatercarnival.companion.util.getUriHandler
 import org.bridgwatercarnival.companion.util.PlatformType
 import org.bridgwatercarnival.companion.util.getCurrentPlatformType
-import org.bridgwatercarnival.companion.components.SocialMediaIframe
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.DrawableResource
 
@@ -156,11 +150,11 @@ fun Parking(navController: NavHostController) {
 					shape = RoundedCornerShape(12.dp)
 				) {
 					Image(
-						painter = painterResource(Res.drawable.CarParkInfo2025),
+						painter = painterResource(Res.drawable.CarParkInfo2026),
 						contentDescription = "Parking Map",
 						modifier = Modifier
 							.fillMaxWidth()
-							.clickable { expandedImage = Res.drawable.CarParkInfo2025 },
+							.clickable { expandedImage = Res.drawable.CarParkInfo2026 },
 						contentScale = ContentScale.FillWidth
 					)
 				}
@@ -476,13 +470,13 @@ fun Parking(navController: NavHostController) {
 					) {
 						val carParks = listOf(
 							CarParkInfo("ASDA - SNAP", "East Quay", "TA6 5AZ", "2:00pm", "51.13057513122341,-2.999515744804497"),
-							CarParkInfo("BRIDGWATER HOSPITAL - Royal British Legion", "Bower Lane", "TA6 4GU", "2:00pm", "51.1409344134999,-2.9753077989478713"),
+//							CarParkInfo("BRIDGWATER HOSPITAL - Royal British Legion", "Bower Lane", "TA6 4GU", "2:00pm", "51.1409344134999,-2.9753077989478713"),
 							CarParkInfo("BLAKE - Bridgwater Sea Cadets", "Northgate", "TA6 3EU", "10:00am", "51.13113154634135,-3.0033088940047166"),
 							CarParkInfo("WICKES - Weston Operatic", "Wylds Road", "TA6 4DH", "2:00pm", "51.136255904015414,-2.999384322992658"),
 							CarParkInfo("MORRISONS - Bridgwater Rotary Club", "Broadway", "TA6 3LN", "2:00pm", "51.12484026457824,-3.0029453985243886"),
 							CarParkInfo("B&M - Bridgwater Rotary Club", "Broadway", "TA6 3LN", "2:00pm", "51.12511284766959,-3.005504556856558"),
 							CarParkInfo("WEST QUAY - Bridgwater Sea Cadets", "Northgate", "TA6 3EU", "10:00am", "51.13113154634135,-3.0033088940047166"),
-							CarParkInfo("POLDEN BOWER SCHOOL - Royal British Legion", "Bower Lane", "TA6 4GU", "3:30pm", "51.1409344134999,-2.9753077989478713"),
+//							CarParkInfo("POLDEN BOWER SCHOOL - Royal British Legion", "Bower Lane", "TA6 4GU", "3:30pm", "51.1409344134999,-2.9753077989478713"),
 							CarParkInfo("ST. MATTHEWS FIELD - Westfield Church", "West Street", "TA6 7HD", "10:30am", "51.12378474061676,-3.014021403522863"),
 							CarParkInfo("UCS COLLEGE - Wilstock Hub", "Bath Road", "TA6 4PZ", "10:30am", "51.1325,-2.9863")
 						)

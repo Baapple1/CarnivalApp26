@@ -30,6 +30,9 @@ private object CommonMainDrawable0 {
   public val CarParkInfo2025: DrawableResource by 
       lazy { init_CarParkInfo2025() }
 
+  public val CarParkInfo2026: DrawableResource by 
+      lazy { init_CarParkInfo2026() }
+
   public val CarnivalBanner: DrawableResource by 
       lazy { init_CarnivalBanner() }
 
@@ -513,6 +516,18 @@ private fun init_CarParkInfo2025(): DrawableResource =
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
     "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/CarParkInfo2025.png", -1, -1),
+    )
+)
+
+internal val Res.drawable.CarParkInfo2026: DrawableResource
+  get() = CommonMainDrawable0.CarParkInfo2026
+
+private fun init_CarParkInfo2026(): DrawableResource =
+    org.jetbrains.compose.resources.DrawableResource(
+  "drawable:CarParkInfo2026",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/CarParkInfo2026.png", -1, -1),
     )
 )
 
