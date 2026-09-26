@@ -177,9 +177,6 @@ private object CommonMainDrawable0 {
   public val Squibbing: DrawableResource by 
       lazy { init_Squibbing() }
 
-  public val ThemeColors: DrawableResource by 
-      lazy { init_ThemeColors() }
-
   public val Thermal_Mug: DrawableResource by 
       lazy { init_Thermal_Mug() }
 
@@ -434,7 +431,7 @@ private fun init_AllOut(): DrawableResource = org.jetbrains.compose.resources.Dr
   "drawable:AllOut",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/AllOut.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/AllOut.webp", -1, -1),
     )
 )
 
@@ -445,7 +442,7 @@ private fun init_BackArrow(): DrawableResource = org.jetbrains.compose.resources
   "drawable:BackArrow",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/BackArrow.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/BackArrow.webp", -1, -1),
     )
 )
 
@@ -456,7 +453,7 @@ private fun init_BritishFlag(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:BritishFlag",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/BritishFlag.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/BritishFlag.webp", -1, -1),
     )
 )
 
@@ -468,7 +465,7 @@ private fun init_BritishFlag25(): DrawableResource =
   "drawable:BritishFlag25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/BritishFlag25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/BritishFlag25.webp", -1, -1),
     )
 )
 
@@ -503,7 +500,7 @@ private fun init_Cap_BGFC(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:Cap_BGFC",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Cap_BGFC.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Cap_BGFC.webp", -1, -1),
     )
 )
 
@@ -515,7 +512,7 @@ private fun init_CarParkInfo2025(): DrawableResource =
   "drawable:CarParkInfo2025",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/CarParkInfo2025.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/CarParkInfo2025.webp", -1, -1),
     )
 )
 
@@ -527,7 +524,7 @@ private fun init_CarParkInfo2026(): DrawableResource =
   "drawable:CarParkInfo2026",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/CarParkInfo2026.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/CarParkInfo2026.webp", -1, -1),
     )
 )
 
@@ -539,7 +536,7 @@ private fun init_CarnivalBanner(): DrawableResource =
   "drawable:CarnivalBanner",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/CarnivalBanner.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/CarnivalBanner.webp", -1, -1),
     )
 )
 
@@ -551,7 +548,7 @@ private fun init_CarnivalBannerUpdatedAug(): DrawableResource =
   "drawable:CarnivalBannerUpdatedAug",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/CarnivalBannerUpdatedAug.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/CarnivalBannerUpdatedAug.webp", -1, -1),
     )
 )
 
@@ -562,7 +559,7 @@ private fun init_Cavaliers(): DrawableResource = org.jetbrains.compose.resources
   "drawable:Cavaliers",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Cavaliers.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Cavaliers.webp", -1, -1),
     )
 )
 
@@ -573,7 +570,7 @@ private fun init_Cavaliers25(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:Cavaliers25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Cavaliers25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Cavaliers25.webp", -1, -1),
     )
 )
 
@@ -584,7 +581,7 @@ private fun init_Centurian25(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:Centurian25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Centurian25.jpeg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Centurian25.webp", -1, -1),
     )
 )
 
@@ -595,7 +592,7 @@ private fun init_Centurion(): DrawableResource = org.jetbrains.compose.resources
   "drawable:Centurion",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Centurion.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Centurion.webp", -1, -1),
     )
 )
 
@@ -606,7 +603,7 @@ private fun init_Closure_Map(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:Closure_Map",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Closure_Map.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Closure_Map.webp", -1, -1),
     )
 )
 
@@ -618,7 +615,7 @@ private fun init_Closure_Table(): DrawableResource =
   "drawable:Closure_Table",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Closure_Table.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Closure_Table.webp", -1, -1),
     )
 )
 
@@ -629,7 +626,7 @@ private fun init_CloudOff(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:CloudOff",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/CloudOff.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/CloudOff.webp", -1, -1),
     )
 )
 
@@ -641,7 +638,7 @@ private fun init_ComingSoonEntertainment(): DrawableResource =
   "drawable:ComingSoonEntertainment",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/ComingSoonEntertainment.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/ComingSoonEntertainment.webp", -1, -1),
     )
 )
 
@@ -652,7 +649,7 @@ private fun init_Crusaders(): DrawableResource = org.jetbrains.compose.resources
   "drawable:Crusaders",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Crusaders.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Crusaders.webp", -1, -1),
     )
 )
 
@@ -663,7 +660,7 @@ private fun init_Crusaders25(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:Crusaders25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Crusaders25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Crusaders25.webp", -1, -1),
     )
 )
 
@@ -685,7 +682,7 @@ private fun init_DVD_2013(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:DVD_2013",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2013.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2013.webp", -1, -1),
     )
 )
 
@@ -696,7 +693,7 @@ private fun init_DVD_2014(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:DVD_2014",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2014.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2014.webp", -1, -1),
     )
 )
 
@@ -707,7 +704,7 @@ private fun init_DVD_2015(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:DVD_2015",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2015.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2015.webp", -1, -1),
     )
 )
 
@@ -718,7 +715,7 @@ private fun init_DVD_2016(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:DVD_2016",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2016.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2016.webp", -1, -1),
     )
 )
 
@@ -729,7 +726,7 @@ private fun init_DVD_2017(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:DVD_2017",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2017.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2017.webp", -1, -1),
     )
 )
 
@@ -740,7 +737,7 @@ private fun init_DVD_2018(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:DVD_2018",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2018.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2018.webp", -1, -1),
     )
 )
 
@@ -751,7 +748,7 @@ private fun init_DVD_2019(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:DVD_2019",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2019.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/DVD_2019.webp", -1, -1),
     )
 )
 
@@ -806,7 +803,7 @@ private fun init_Donation(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:Donation",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Donation.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Donation.webp", -1, -1),
     )
 )
 
@@ -817,7 +814,7 @@ private fun init_Gremlins(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:Gremlins",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Gremlins.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Gremlins.webp", -1, -1),
     )
 )
 
@@ -828,7 +825,7 @@ private fun init_Gremlins25(): DrawableResource = org.jetbrains.compose.resource
   "drawable:Gremlins25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Gremlins25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Gremlins25.webp", -1, -1),
     )
 )
 
@@ -839,7 +836,7 @@ private fun init_Griffens(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:Griffens",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Griffens.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Griffens.webp", -1, -1),
     )
 )
 
@@ -850,7 +847,7 @@ private fun init_Griffens25(): DrawableResource = org.jetbrains.compose.resource
   "drawable:Griffens25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Griffens25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Griffens25.webp", -1, -1),
     )
 )
 
@@ -861,7 +858,7 @@ private fun init_Guide(): DrawableResource = org.jetbrains.compose.resources.Dra
   "drawable:Guide",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Guide.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Guide.webp", -1, -1),
     )
 )
 
@@ -873,7 +870,7 @@ private fun init_GuyFawkesCart(): DrawableResource =
   "drawable:GuyFawkesCart",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/GuyFawkesCart.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/GuyFawkesCart.webp", -1, -1),
     )
 )
 
@@ -884,7 +881,7 @@ private fun init_LimeKiln(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:LimeKiln",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/LimeKiln.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/LimeKiln.webp", -1, -1),
     )
 )
 
@@ -895,7 +892,7 @@ private fun init_LimeKiln25(): DrawableResource = org.jetbrains.compose.resource
   "drawable:LimeKiln25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/LimeKiln25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/LimeKiln25.webp", -1, -1),
     )
 )
 
@@ -907,7 +904,7 @@ private fun init_MarinaSyden25(): DrawableResource =
   "drawable:MarinaSyden25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/MarinaSyden25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/MarinaSyden25.webp", -1, -1),
     )
 )
 
@@ -919,7 +916,7 @@ private fun init_MarinaSydenham(): DrawableResource =
   "drawable:MarinaSydenham",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/MarinaSydenham.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/MarinaSydenham.webp", -1, -1),
     )
 )
 
@@ -930,7 +927,7 @@ private fun init_Marketeers(): DrawableResource = org.jetbrains.compose.resource
   "drawable:Marketeers",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Marketeers.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Marketeers.webp", -1, -1),
     )
 )
 
@@ -942,7 +939,7 @@ private fun init_Marketeers25(): DrawableResource =
   "drawable:Marketeers25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Marketeers25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Marketeers25.webp", -1, -1),
     )
 )
 
@@ -953,7 +950,7 @@ private fun init_Mug(): DrawableResource = org.jetbrains.compose.resources.Drawa
   "drawable:Mug",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Mug.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Mug.webp", -1, -1),
     )
 )
 
@@ -964,7 +961,7 @@ private fun init_Newmarket(): DrawableResource = org.jetbrains.compose.resources
   "drawable:Newmarket",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Newmarket.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Newmarket.webp", -1, -1),
     )
 )
 
@@ -975,7 +972,7 @@ private fun init_Newmarket25(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:Newmarket25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Newmarket25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Newmarket25.webp", -1, -1),
     )
 )
 
@@ -986,7 +983,7 @@ private fun init_Pentathlon(): DrawableResource = org.jetbrains.compose.resource
   "drawable:Pentathlon",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Pentathlon.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Pentathlon.webp", -1, -1),
     )
 )
 
@@ -998,7 +995,7 @@ private fun init_Programme_2023(): DrawableResource =
   "drawable:Programme_2023",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Programme_2023.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Programme_2023.webp", -1, -1),
     )
 )
 
@@ -1009,7 +1006,7 @@ private fun init_Ramblers(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:Ramblers",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Ramblers.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Ramblers.webp", -1, -1),
     )
 )
 
@@ -1020,7 +1017,7 @@ private fun init_Ramblers25(): DrawableResource = org.jetbrains.compose.resource
   "drawable:Ramblers25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Ramblers25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Ramblers25.webp", -1, -1),
     )
 )
 
@@ -1031,7 +1028,7 @@ private fun init_Renegades(): DrawableResource = org.jetbrains.compose.resources
   "drawable:Renegades",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Renegades.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Renegades.webp", -1, -1),
     )
 )
 
@@ -1042,7 +1039,7 @@ private fun init_Renegades25(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:Renegades25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Renegades25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Renegades25.webp", -1, -1),
     )
 )
 
@@ -1053,7 +1050,7 @@ private fun init_Route_map(): DrawableResource = org.jetbrains.compose.resources
   "drawable:Route_map",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Route_map.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Route_map.webp", -1, -1),
     )
 )
 
@@ -1064,18 +1061,7 @@ private fun init_Squibbing(): DrawableResource = org.jetbrains.compose.resources
   "drawable:Squibbing",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Squibbing.jpg", -1, -1),
-    )
-)
-
-internal val Res.drawable.ThemeColors: DrawableResource
-  get() = CommonMainDrawable0.ThemeColors
-
-private fun init_ThemeColors(): DrawableResource = org.jetbrains.compose.resources.DrawableResource(
-  "drawable:ThemeColors",
-    setOf(
-      org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/ThemeColors.kt", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Squibbing.webp", -1, -1),
     )
 )
 
@@ -1086,7 +1072,7 @@ private fun init_Thermal_Mug(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:Thermal_Mug",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Thermal_Mug.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Thermal_Mug.webp", -1, -1),
     )
 )
 
@@ -1098,7 +1084,7 @@ private fun init_TwentyFiveBanner(): DrawableResource =
   "drawable:TwentyFiveBanner",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFiveBanner.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFiveBanner.webp", -1, -1),
     )
 )
 
@@ -1110,7 +1096,7 @@ private fun init_TwentyFourCenturion(): DrawableResource =
   "drawable:TwentyFourCenturion",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourCenturion.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourCenturion.webp", -1, -1),
     )
 )
 
@@ -1122,7 +1108,7 @@ private fun init_TwentyFourCrusaders(): DrawableResource =
   "drawable:TwentyFourCrusaders",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourCrusaders.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourCrusaders.webp", -1, -1),
     )
 )
 
@@ -1134,7 +1120,7 @@ private fun init_TwentyFourGalleryIcon(): DrawableResource =
   "drawable:TwentyFourGalleryIcon",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourGalleryIcon.jpeg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourGalleryIcon.webp", -1, -1),
     )
 )
 
@@ -1146,7 +1132,7 @@ private fun init_TwentyFourGalleryIconNoBackground(): DrawableResource =
   "drawable:TwentyFourGalleryIconNoBackground",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourGalleryIconNoBackground.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourGalleryIconNoBackground.webp", -1, -1),
     )
 )
 
@@ -1158,7 +1144,7 @@ private fun init_TwentyFourGlobe(): DrawableResource =
   "drawable:TwentyFourGlobe",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourGlobe.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourGlobe.webp", -1, -1),
     )
 )
 
@@ -1170,7 +1156,7 @@ private fun init_TwentyFourGremlins(): DrawableResource =
   "drawable:TwentyFourGremlins",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourGremlins.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourGremlins.webp", -1, -1),
     )
 )
 
@@ -1182,7 +1168,7 @@ private fun init_TwentyFourGriffens(): DrawableResource =
   "drawable:TwentyFourGriffens",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourGriffens.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourGriffens.webp", -1, -1),
     )
 )
 
@@ -1194,7 +1180,7 @@ private fun init_TwentyFourHarlequin(): DrawableResource =
   "drawable:TwentyFourHarlequin",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourHarlequin.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourHarlequin.webp", -1, -1),
     )
 )
 
@@ -1206,7 +1192,7 @@ private fun init_TwentyFourHillview(): DrawableResource =
   "drawable:TwentyFourHillview",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourHillview.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourHillview.webp", -1, -1),
     )
 )
 
@@ -1218,7 +1204,7 @@ private fun init_TwentyFourHuckyduck(): DrawableResource =
   "drawable:TwentyFourHuckyduck",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourHuckyduck.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourHuckyduck.webp", -1, -1),
     )
 )
 
@@ -1230,7 +1216,7 @@ private fun init_TwentyFourLimeKiln(): DrawableResource =
   "drawable:TwentyFourLimeKiln",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourLimeKiln.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourLimeKiln.webp", -1, -1),
     )
 )
 
@@ -1242,7 +1228,7 @@ private fun init_TwentyFourMarina(): DrawableResource =
   "drawable:TwentyFourMarina",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourMarina.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourMarina.webp", -1, -1),
     )
 )
 
@@ -1254,7 +1240,7 @@ private fun init_TwentyFourMarketeers(): DrawableResource =
   "drawable:TwentyFourMarketeers",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourMarketeers.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourMarketeers.webp", -1, -1),
     )
 )
 
@@ -1266,7 +1252,7 @@ private fun init_TwentyFourMasqueraders(): DrawableResource =
   "drawable:TwentyFourMasqueraders",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourMasqueraders.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourMasqueraders.webp", -1, -1),
     )
 )
 
@@ -1278,7 +1264,7 @@ private fun init_TwentyFourMendipVale(): DrawableResource =
   "drawable:TwentyFourMendipVale",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourMendipVale.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourMendipVale.webp", -1, -1),
     )
 )
 
@@ -1290,7 +1276,7 @@ private fun init_TwentyFourNewmarket(): DrawableResource =
   "drawable:TwentyFourNewmarket",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourNewmarket.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourNewmarket.webp", -1, -1),
     )
 )
 
@@ -1302,7 +1288,7 @@ private fun init_TwentyFourPentathlon(): DrawableResource =
   "drawable:TwentyFourPentathlon",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourPentathlon.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourPentathlon.webp", -1, -1),
     )
 )
 
@@ -1314,7 +1300,7 @@ private fun init_TwentyFourRamblers(): DrawableResource =
   "drawable:TwentyFourRamblers",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourRamblers.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourRamblers.webp", -1, -1),
     )
 )
 
@@ -1326,7 +1312,7 @@ private fun init_TwentyFourRenegades(): DrawableResource =
   "drawable:TwentyFourRenegades",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourRenegades.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourRenegades.webp", -1, -1),
     )
 )
 
@@ -1338,7 +1324,7 @@ private fun init_TwentyFourRubalo(): DrawableResource =
   "drawable:TwentyFourRubalo",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourRubalo.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourRubalo.webp", -1, -1),
     )
 )
 
@@ -1350,7 +1336,7 @@ private fun init_TwentyFourToppers(): DrawableResource =
   "drawable:TwentyFourToppers",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourToppers.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourToppers.webp", -1, -1),
     )
 )
 
@@ -1362,7 +1348,7 @@ private fun init_TwentyFourVagabonds(): DrawableResource =
   "drawable:TwentyFourVagabonds",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourVagabonds.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourVagabonds.webp", -1, -1),
     )
 )
 
@@ -1374,7 +1360,7 @@ private fun init_TwentyFourWestonzoyland(): DrawableResource =
   "drawable:TwentyFourWestonzoyland",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourWestonzoyland.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourWestonzoyland.webp", -1, -1),
     )
 )
 
@@ -1386,7 +1372,7 @@ private fun init_TwentyFourWills(): DrawableResource =
   "drawable:TwentyFourWills",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourWills.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyFourWills.webp", -1, -1),
     )
 )
 
@@ -1398,9 +1384,7 @@ private fun init_TwentyThreeGalleryIcon(): DrawableResource =
   "drawable:TwentyThreeGalleryIcon",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyThreeGalleryIcon.jpeg", -1, -1),
-      org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyThreeGalleryIcon.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyThreeGalleryIcon.webp", -1, -1),
     )
 )
 
@@ -1412,7 +1396,7 @@ private fun init_TwentyThreeGalleryIconNoBackground(): DrawableResource =
   "drawable:TwentyThreeGalleryIconNoBackground",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyThreeGalleryIconNoBackground.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/TwentyThreeGalleryIconNoBackground.webp", -1, -1),
     )
 )
 
@@ -1423,7 +1407,7 @@ private fun init_Untitled(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:Untitled",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Untitled.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Untitled.webp", -1, -1),
     )
 )
 
@@ -1434,7 +1418,7 @@ private fun init_Vagabonds(): DrawableResource = org.jetbrains.compose.resources
   "drawable:Vagabonds",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Vagabonds.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Vagabonds.webp", -1, -1),
     )
 )
 
@@ -1445,7 +1429,7 @@ private fun init_Vagabonds25(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:Vagabonds25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Vagabonds25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Vagabonds25.webp", -1, -1),
     )
 )
 
@@ -1456,7 +1440,7 @@ private fun init_Voting(): DrawableResource = org.jetbrains.compose.resources.Dr
   "drawable:Voting",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Voting.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Voting.webp", -1, -1),
     )
 )
 
@@ -1467,7 +1451,7 @@ private fun init_Wilfs(): DrawableResource = org.jetbrains.compose.resources.Dra
   "drawable:Wilfs",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Wilfs.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Wilfs.webp", -1, -1),
     )
 )
 
@@ -1478,7 +1462,7 @@ private fun init_Wilfs25(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:Wilfs25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Wilfs25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Wilfs25.webp", -1, -1),
     )
 )
 
@@ -1489,7 +1473,7 @@ private fun init_Wills(): DrawableResource = org.jetbrains.compose.resources.Dra
   "drawable:Wills",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Wills.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Wills.webp", -1, -1),
     )
 )
 
@@ -1500,7 +1484,7 @@ private fun init_Wills25(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:Wills25",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Wills25.jpg", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/Wills25.webp", -1, -1),
     )
 )
 
@@ -1512,7 +1496,7 @@ private fun init__2025CarnivalBanner(): DrawableResource =
   "drawable:_2025CarnivalBanner",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/2025CarnivalBanner.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/2025CarnivalBanner.webp", -1, -1),
     )
 )
 
@@ -1535,7 +1519,7 @@ private fun init_banner(): DrawableResource = org.jetbrains.compose.resources.Dr
   "drawable:banner",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/banner.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/banner.webp", -1, -1),
     )
 )
 
@@ -1546,7 +1530,7 @@ private fun init_bgf_banner(): DrawableResource = org.jetbrains.compose.resource
   "drawable:bgf_banner",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/bgf_banner.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/bgf_banner.webp", -1, -1),
     )
 )
 
@@ -1557,7 +1541,7 @@ private fun init_bgfc_banner(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:bgfc_banner",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/bgfc_banner.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/bgfc_banner.webp", -1, -1),
     )
 )
 
@@ -1568,7 +1552,7 @@ private fun init_car_park(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:car_park",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/car_park.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/car_park.webp", -1, -1),
     )
 )
 
@@ -1579,7 +1563,7 @@ private fun init_cinema(): DrawableResource = org.jetbrains.compose.resources.Dr
   "drawable:cinema",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/cinema.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/cinema.webp", -1, -1),
     )
 )
 
@@ -1590,7 +1574,7 @@ private fun init_cinemamask(): DrawableResource = org.jetbrains.compose.resource
   "drawable:cinemamask",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/cinemamask.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/cinemamask.webp", -1, -1),
     )
 )
 
@@ -1601,7 +1585,7 @@ private fun init_clock(): DrawableResource = org.jetbrains.compose.resources.Dra
   "drawable:clock",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/clock.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/clock.webp", -1, -1),
     )
 )
 
@@ -1623,7 +1607,7 @@ private fun init_comingsoon(): DrawableResource = org.jetbrains.compose.resource
   "drawable:comingsoon",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/comingsoon.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/comingsoon.webp", -1, -1),
     )
 )
 
@@ -1634,7 +1618,7 @@ private fun init_content(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:content",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/content.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/content.webp", -1, -1),
     )
 )
 
@@ -1645,7 +1629,7 @@ private fun init_england(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:england",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/england.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/england.webp", -1, -1),
     )
 )
 
@@ -1656,7 +1640,7 @@ private fun init_facebook(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:facebook",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/facebook.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/facebook.webp", -1, -1),
     )
 )
 
@@ -1667,7 +1651,7 @@ private fun init_firework(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:firework",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/firework.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/firework.webp", -1, -1),
     )
 )
 
@@ -1678,7 +1662,7 @@ private fun init_flag(): DrawableResource = org.jetbrains.compose.resources.Draw
   "drawable:flag",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/flag.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/flag.webp", -1, -1),
     )
 )
 
@@ -1690,7 +1674,7 @@ private fun init_forbidden_sign(): DrawableResource =
   "drawable:forbidden_sign",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/forbidden-sign.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/forbidden-sign.webp", -1, -1),
     )
 )
 
@@ -1701,7 +1685,7 @@ private fun init_france(): DrawableResource = org.jetbrains.compose.resources.Dr
   "drawable:france",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/france.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/france.webp", -1, -1),
     )
 )
 
@@ -1712,7 +1696,7 @@ private fun init_german(): DrawableResource = org.jetbrains.compose.resources.Dr
   "drawable:german",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/german.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/german.webp", -1, -1),
     )
 )
 
@@ -1723,7 +1707,7 @@ private fun init_guy_fawkes(): DrawableResource = org.jetbrains.compose.resource
   "drawable:guy_fawkes",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/guy_fawkes.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/guy_fawkes.webp", -1, -1),
     )
 )
 
@@ -1735,7 +1719,7 @@ private fun init_image_gallery(): DrawableResource =
   "drawable:image_gallery",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/image-gallery.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/image-gallery.webp", -1, -1),
     )
 )
 
@@ -1746,7 +1730,7 @@ private fun init_info_32(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:info_32",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/info_32.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/info_32.webp", -1, -1),
     )
 )
 
@@ -1757,7 +1741,7 @@ private fun init_instagram(): DrawableResource = org.jetbrains.compose.resources
   "drawable:instagram",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/instagram.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/instagram.webp", -1, -1),
     )
 )
 
@@ -1768,7 +1752,7 @@ private fun init_italian(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:italian",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/italian.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/italian.webp", -1, -1),
     )
 )
 
@@ -1779,7 +1763,7 @@ private fun init_map_32(): DrawableResource = org.jetbrains.compose.resources.Dr
   "drawable:map_32",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/map_32.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/map_32.webp", -1, -1),
     )
 )
 
@@ -1790,7 +1774,7 @@ private fun init_news(): DrawableResource = org.jetbrains.compose.resources.Draw
   "drawable:news",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/news.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/news.webp", -1, -1),
     )
 )
 
@@ -1801,7 +1785,7 @@ private fun init_noaccess(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:noaccess",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/noaccess.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/noaccess.webp", -1, -1),
     )
 )
 
@@ -1812,7 +1796,7 @@ private fun init_noentry(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:noentry",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/noentry.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/noentry.webp", -1, -1),
     )
 )
 
@@ -1823,7 +1807,7 @@ private fun init_parkingarea(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:parkingarea",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/parkingarea.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/parkingarea.webp", -1, -1),
     )
 )
 
@@ -1835,7 +1819,7 @@ private fun init_parkingplace(): DrawableResource =
   "drawable:parkingplace",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/parkingplace.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/parkingplace.webp", -1, -1),
     )
 )
 
@@ -1846,7 +1830,7 @@ private fun init_photo(): DrawableResource = org.jetbrains.compose.resources.Dra
   "drawable:photo",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/photo.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/photo.webp", -1, -1),
     )
 )
 
@@ -1857,7 +1841,7 @@ private fun init_planner(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:planner",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/planner.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/planner.webp", -1, -1),
     )
 )
 
@@ -1868,7 +1852,7 @@ private fun init_podium(): DrawableResource = org.jetbrains.compose.resources.Dr
   "drawable:podium",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/podium.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/podium.webp", -1, -1),
     )
 )
 
@@ -1879,7 +1863,7 @@ private fun init_question(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:question",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/question.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/question.webp", -1, -1),
     )
 )
 
@@ -1890,7 +1874,7 @@ private fun init_roadmap(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:roadmap",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/roadmap.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/roadmap.webp", -1, -1),
     )
 )
 
@@ -1901,7 +1885,7 @@ private fun init_settings_32(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:settings_32",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/settings_32.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/settings_32.webp", -1, -1),
     )
 )
 
@@ -1912,7 +1896,7 @@ private fun init_shuffle(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:shuffle",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/shuffle.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/shuffle.webp", -1, -1),
     )
 )
 
@@ -1923,7 +1907,7 @@ private fun init_socialmedia(): DrawableResource = org.jetbrains.compose.resourc
   "drawable:socialmedia",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/socialmedia.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/socialmedia.webp", -1, -1),
     )
 )
 
@@ -1934,7 +1918,7 @@ private fun init_store_32(): DrawableResource = org.jetbrains.compose.resources.
   "drawable:store_32",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/store_32.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/store_32.webp", -1, -1),
     )
 )
 
@@ -1945,7 +1929,7 @@ private fun init_time(): DrawableResource = org.jetbrains.compose.resources.Draw
   "drawable:time",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/time.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/time.webp", -1, -1),
     )
 )
 
@@ -1956,7 +1940,7 @@ private fun init_toilet(): DrawableResource = org.jetbrains.compose.resources.Dr
   "drawable:toilet",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/toilet.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/toilet.webp", -1, -1),
     )
 )
 
@@ -1967,7 +1951,7 @@ private fun init_twitter(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:twitter",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/twitter.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/twitter.webp", -1, -1),
     )
 )
 
@@ -1978,7 +1962,7 @@ private fun init_ucs2023(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:ucs2023",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/ucs2023.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/ucs2023.webp", -1, -1),
     )
 )
 
@@ -1989,7 +1973,7 @@ private fun init_warning(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:warning",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/warning.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/warning.webp", -1, -1),
     )
 )
 
@@ -2000,7 +1984,7 @@ private fun init_website(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:website",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/website.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/website.webp", -1, -1),
     )
 )
 
@@ -2011,6 +1995,6 @@ private fun init_youtube(): DrawableResource = org.jetbrains.compose.resources.D
   "drawable:youtube",
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
-    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/youtube.png", -1, -1),
+    "composeResources/bridgwatercarnival.composeapp.generated.resources/drawable/youtube.webp", -1, -1),
     )
 )
