@@ -108,6 +108,7 @@ fun DaytimeEntertainment(navController: NavHostController) {
 					title.contains("MAIN STAGE") -> "🎭" to Color(0xFF1976D2)      // Darker blue
 					title.contains("CORNHILL") -> "🎪" to Color(0xFFD81B60)        // Darker pink
 					title.contains("HIGH STREET") -> "🎵" to Color(0xFF388E3C)     // Darker green
+					title.contains("ARTS CENTRE") -> "🎨" to Color(0xFF388E3C)     // Darker green
 					title.contains("MARY") -> "⛪" to Color(0xFFF57C00)            // Darker orange
 					else -> "🎡" to Color(0xFF7B1FA2)                             // Darker purple
 				}
@@ -248,17 +249,17 @@ fun DaytimeEntertainment(navController: NavHostController) {
 				"🎵 HIGH STREET PERFORMANCE AREA",
 				listOf(
 					"10:30 - Fox King Dance Academy",
-					"11:00 - Farmyard Circus",
+					"11:00 - Bubbles LaFae",
 					"11:40 - Bridgwater Rock Choir",
 					"12:15 - Julia McDonald Dance Co",
-					"12:40 - The Saint Melonians",
+					"12:40 - Farmyard Circus",
 					"13:15 - Bridgwater Sea Cadets",
-					"13:45 - Farmyard Circus",
-					"14:20 - Felicity Footloose",
-					"15:00 - The Saint Melonians",
-					"15:35 - Street Heat Samba Band",
-					"16:10 - Felicity Footloose",
-					"16:50 - The Saint Melonians"
+					"13:45 - The Lifesaver",
+					"14:20 - Gugge 2000",
+					"15:00 - Farmyard Circus",
+					"15:35 - Bubbles LaFae",
+					"16:10 - The Lifesaver",
+					"16:50 - Gugge 2000"
 				),
 				Color(0xFFE8F5E9) // Light green pastel
 			)
@@ -276,16 +277,16 @@ fun DaytimeEntertainment(navController: NavHostController) {
 			EventSchedule(
 				"🎪 CORNHILL STAGE",
 				listOf(
-					"10:30 - BTC Performing Arts",
+					"10:30 - Black Velvet Band",
 					"11:15 - Westcan",
-					"11:50 - Ashley Ross Quinn",
-					"12:25 - Shalana Serafina",
-					"13:05 - Jordan Hill",
+					"11:50 - Barnacle Buoys",
+					"12:25 - Ashley Ross Quinn",
+					"13:05 - Black Velvet Band",
 					"13:55 - The Vixens",
-					"14:30 - Chrystal Bliss",
+					"14:30 - Talisha Sings",
 					"15:20 - Two Tone",
-					"16:10 - Ashley Ross Quinn",
-					"16:45 - Chrystal Bliss"
+					"16:10 - Shalana Serafina",
+					"16:45 - Talisha Sings"
 				),
 				Color(0xFFF3E5F5) // Light purple pastel
 			)
@@ -296,11 +297,10 @@ fun DaytimeEntertainment(navController: NavHostController) {
 					"10:30 - MADE Community Youth Theatre",
 					"13:00 - Krazy Kev & Dinky",
 					"13:40 - YMTC",
-					"14:25 - Prof James Gordon's Famous Punch & Judy",
-					"15:10 - Jimmy Jay",
+					"14:25 - Barnacle Buoys",
+					"15:10 - Lucy Lost-It",
 					"15:45 - Krazy Kev & Dinky",
-					"16:20 - Prof James Gordon's Famous Punch & Judy",
-					"17:05 - Jimmy Jay"
+					"16:20 - Simon Ellis",
 				),
 				Color(0xFFE3F2FD) // Light blue pastel
 			)
@@ -309,11 +309,22 @@ fun DaytimeEntertainment(navController: NavHostController) {
 				"🎡 TOWN CENTRE",
 				listOf(
 					"Marvellous Magical Theatre",
-					"Higher Beings (Stilt Walkers)",
+					"Lucy Lost-It",
+					"Bubbles Le Fae",
 					"Children's Fairground Rides (from 17.40)",
 					"Sounds of the Streets"
 				),
 				Color(0xFFFFEBEE) // Light red pastel
+			)
+
+			EventSchedule(
+				"BRIDGWATER ARTS CENTRE",
+				listOf(
+					"Milly Riquelme's Cuban music\n" +
+							"Dawn from HK\n" +
+							"Bulgarian Folk Dance",
+				),
+				Color(0xFFE8F5E9) // Light green pastel
 			)
 
 			Spacer(modifier = Modifier.height(24.dp))
