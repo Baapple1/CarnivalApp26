@@ -1,5 +1,5 @@
 # Bridgwater Carnival Companion App
-This project is an Android and IOS application built for the Bridgwater Carnival. It provides helpful information and functionalities for attendies.
+This project is an Android and IOS application built for the Bridgwater Carnival. It provides helpful information and functionalities for attendies. It is a continuation and updated version for 2026. The original author is Ben Hooper.
 
 It is made up of Kotlin Multiplatform, for the application structure, and Jetbrains Compose / Compose Multiplatform for the UI. Material2 standard is used for the Compose API.
 
