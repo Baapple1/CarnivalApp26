@@ -275,73 +275,73 @@ fun Gallery2024(navController: NavHostController) {
                 // List of carnival clubs with their entries
                 val contentList = listOf(
                     Triple(
-                        TranslationManager.translate("gremlins_title"),
-                        TranslationManager.translate("gremlins_description"),
+                        TranslationManager.translate("gremlins_2024_title"),
+                        TranslationManager.translate("gremlins_2024_description"),
                         Res.drawable.TwentyFourGremlins
                     ),
                     Triple(
-                        TranslationManager.translate("ramblers_title"),
-                        TranslationManager.translate("ramblers_description"),
+                        TranslationManager.translate("ramblers_2024_title"),
+                        TranslationManager.translate("ramblers_2024_description"),
                         Res.drawable.TwentyFourRamblers
                     ),
                     Triple(
-                        TranslationManager.translate("renegades_title"),
-                        TranslationManager.translate("renegades_description"),
+                        TranslationManager.translate("renegades_2024_title"),
+                        TranslationManager.translate("renegades_2024_description"),
                         Res.drawable.TwentyFourRenegades
                     ),
                     Triple(
-                        TranslationManager.translate("marketeers_title"),
-                        TranslationManager.translate("marketeers_description"),
+                        TranslationManager.translate("marketeers_2024_title"),
+                        TranslationManager.translate("marketeers_2024_description"),
                         Res.drawable.TwentyFourMarketeers
                     ),
                     Triple(
-                        TranslationManager.translate("lime_kiln_title"),
-                        TranslationManager.translate("lime_kiln_description"),
+                        TranslationManager.translate("lime_kiln_2024_title"),
+                        TranslationManager.translate("lime_kiln_2024_description"),
                         Res.drawable.TwentyFourLimeKiln
                     ),
                     Triple(
-                        TranslationManager.translate("vagabonds_title"),
-                        TranslationManager.translate("vagabonds_description"),
+                        TranslationManager.translate("vagabonds_2024_title"),
+                        TranslationManager.translate("vagabonds_2024_description"),
                         Res.drawable.TwentyFourVagabonds
                     ),
                     Triple(
-                        TranslationManager.translate("griffens_title"),
-                        TranslationManager.translate("griffens_description"),
+                        TranslationManager.translate("griffens_2024_title"),
+                        TranslationManager.translate("griffens_2024_description"),
                         Res.drawable.TwentyFourGriffens
                     ),
                     Triple(
-                        TranslationManager.translate("crusaders_title"),
-                        TranslationManager.translate("crusaders_description"),
+                        TranslationManager.translate("crusaders_2024_title"),
+                        TranslationManager.translate("crusaders_2024_description"),
                         Res.drawable.TwentyFourCrusaders
                     ),
                     Triple(
-                        TranslationManager.translate("new_market_title"),
-                        TranslationManager.translate("new_market_description"),
+                        TranslationManager.translate("new_market_2024_title"),
+                        TranslationManager.translate("new_market_2024_description"),
                         Res.drawable.TwentyFourNewmarket
                     ),
                     Triple(
-                        TranslationManager.translate("marina_sydenham_title"),
-                        TranslationManager.translate("marina_sydenham_description"),
+                        TranslationManager.translate("marina_sydenham_2024_title"),
+                        TranslationManager.translate("marina_sydenham_2024_description"),
                         Res.drawable.TwentyFourMarina
                     ),
                     Triple(
-                        TranslationManager.translate("pentathlon_title"),
-                        TranslationManager.translate("pentathlon_description"),
+                        TranslationManager.translate("pentathlon_2024_title"),
+                        TranslationManager.translate("pentathlon_2024_description"),
                         Res.drawable.TwentyFourPentathlon
                     ),
                     Triple(
-                        TranslationManager.translate("hillview_title"),
-                        TranslationManager.translate("hillview_description"),
+                        TranslationManager.translate("hillview_2024_title"),
+                        TranslationManager.translate("hillview_2024_description"),
                         Res.drawable.TwentyFourHillview
                     ),
                     Triple(
-                        TranslationManager.translate("harliquin_title"),
-                        TranslationManager.translate("harliquin_description"),
+                        TranslationManager.translate("harliquin_2024_title"),
+                        TranslationManager.translate("harliquin_2024_description"),
                         Res.drawable.TwentyFourHarlequin
                     ),
                     Triple(
-                        TranslationManager.translate("masqueraders_title"),
-                        TranslationManager.translate("masqueraders_description"),
+                        TranslationManager.translate("masqueraders_2024_title"),
+                        TranslationManager.translate("masqueraders_2024_description"),
                         Res.drawable.TwentyFourMasqueraders
                     )
                 )

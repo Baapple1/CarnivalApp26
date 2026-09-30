@@ -279,84 +279,84 @@ fun Gallery2025(navController: NavHostController) {
                 // List of carnival clubs with their entries
                 val contentList = listOf(
                     Triple(
-                        TranslationManager.translate("ramblers_title"),
-                        TranslationManager.translate("ramblers_description"),
+                        TranslationManager.translate("ramblers_2025_title"),
+                        TranslationManager.translate("ramblers_2025_description"),
                         Res.drawable.Ramblers25
                     ),
                     Triple(
-                        TranslationManager.translate("gremlins_title"),
-                        TranslationManager.translate("gremlins_description"),
+                        TranslationManager.translate("gremlins_2025_title"),
+                        TranslationManager.translate("gremlins_2025_description"),
                         Res.drawable.Gremlins25
                     ),
                     Triple(
-                        TranslationManager.translate("lime_kiln_title"),
-                        TranslationManager.translate("lime_kiln_description"),
+                        TranslationManager.translate("lime_kiln_2025_title"),
+                        TranslationManager.translate("lime_kiln_2025_description"),
                         Res.drawable.LimeKiln25
                     ),
                     Triple(
-                        TranslationManager.translate("renegades_title"),
-                        TranslationManager.translate("renegades_description"),
+                        TranslationManager.translate("renegades_2025_title"),
+                        TranslationManager.translate("renegades_2025_description"),
                         Res.drawable.Renegades25
                     ),
                     Triple(
-                        TranslationManager.translate("marketeers_title"),
-                        TranslationManager.translate("marketeers_description"),
+                        TranslationManager.translate("marketeers_2025_title"),
+                        TranslationManager.translate("marketeers_2025_description"),
                         Res.drawable.Marketeers25
                     ),
 
                     Triple(
-                        TranslationManager.translate("vagabonds_title"),
-                        TranslationManager.translate("vagabonds_description"),
+                        TranslationManager.translate("vagabonds_2025_title"),
+                        TranslationManager.translate("vagabonds_2025_description"),
                         Res.drawable.Vagabonds25
                     ),
                     Triple(
-                        TranslationManager.translate("british_flag_title"),
-                        TranslationManager.translate("british_flag_description"),
+                        TranslationManager.translate("british_flag_2025_title"),
+                        TranslationManager.translate("british_flag_2025_description"),
                         Res.drawable.BritishFlag25
                     ),
                     Triple(
-                        TranslationManager.translate("griffens_title"),
-                        TranslationManager.translate("griffens_description"),
+                        TranslationManager.translate("griffens_2025_title"),
+                        TranslationManager.translate("griffens_2025_description"),
                         Res.drawable.Griffens25
                     ),
                     Triple(
-                        TranslationManager.translate("crusaders_title"),
-                        TranslationManager.translate("crusaders_description"),
+                        TranslationManager.translate("crusaders_2025_title"),
+                        TranslationManager.translate("crusaders_2025_description"),
                         Res.drawable.Crusaders25
                     ),
                     Triple(
-                        TranslationManager.translate("wills_title"),
-                        TranslationManager.translate("wills_description"),
+                        TranslationManager.translate("wills_2025_title"),
+                        TranslationManager.translate("wills_2025_description"),
                         Res.drawable.Wills25
                     ),
                     Triple(
-                        TranslationManager.translate("centurion_title"),
-                        TranslationManager.translate("centurion_description"),
+                        TranslationManager.translate("centurion_2025_title"),
+                        TranslationManager.translate("centurion_2025_description"),
                         Res.drawable.Centurion25
                     ),
                     Triple(
-                        TranslationManager.translate("marina_sydenham_title"),
-                        TranslationManager.translate("marina_sydenham_description"),
+                        TranslationManager.translate("marina_sydenham_2025_title"),
+                        TranslationManager.translate("marina_sydenham_2025_description"),
                         Res.drawable.MarinaSyden25
                     ),
                     Triple(
-                        TranslationManager.translate("new_market_title"),
-                        TranslationManager.translate("new_market_description"),
+                        TranslationManager.translate("new_market_2025_title"),
+                        TranslationManager.translate("new_market_2025_description"),
                         Res.drawable.Newmarket25
                     ),
                     Triple(
-                        TranslationManager.translate("pentathlon_title"),
-                        TranslationManager.translate("pentathlon_description"),
+                        TranslationManager.translate("pentathlon_2025_title"),
+                        TranslationManager.translate("pentathlon_2025_description"),
                         Res.drawable.Pentathlon25
                     ),
                     Triple(
-                        TranslationManager.translate("toppers_title"),
-                        TranslationManager.translate("toppers_description"),
+                        TranslationManager.translate("toppers_2025_title"),
+                        TranslationManager.translate("toppers_2025_description"),
                         Res.drawable.Toppers25
                     ),
                     Triple(
-                        TranslationManager.translate("wilfs_title"),
-                        TranslationManager.translate("wilfs_description"),
+                        TranslationManager.translate("wilfs_2025_title"),
+                        TranslationManager.translate("wilfs_2025_description"),
                         Res.drawable.Wilfs25
                     ),
                 )
